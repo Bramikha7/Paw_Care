@@ -1,0 +1,182 @@
+header{
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.icon{
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100%;
+    padding: 8px 10px;
+}
+
+.logo_img{
+    border-radius: 50%;
+}
+
+.navlink{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navlink a{
+    text-decoration:none;
+    color: #444;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s;
+}
+
+
+/* About Hero */
+.about-hero {
+  background: url('https://images.unsplash.com/photo-1592194996308-7b43878e84a6') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.about-hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.about-content {
+  position: relative;
+  z-index: 1;
+}
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Our Story */
+.our-story {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+.our-story h2 {
+  color: #2E9A92;
+  margin-bottom: 20px;
+}
+.our-story p {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #555;
+  line-height: 1.7;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.member {
+  width: 220px;
+  text-align: center;
+}
+.member img {
+  width: 100%;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.member h3 {
+  color: #333;
+}
+.member p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Why Vaccination */
+.why-vaccination {
+  padding: 60px 20px;
+  text-align: center;
+}
+.why-vaccination h2 {
+  color: #2E9A92;
+  margin-bottom: 30px;
+}
+.why-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.why-content img {
+  width: 400px;
+  border-radius: 12px;
+}
+.why-content p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+.why-content ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+.why-content li {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Partners */
+.partners {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 60px 20px;
+}
+.partners h2 {
+  color: #2E9A92;
+  margin-bottom: 30px;
+}
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.partner-logos img {
+  width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+.partner-logos img:hover {
+  filter: grayscale(0);
+}
+
+/* Active nav link */
+nav a.active {
+  color: #2E9A92;
+  font-weight: 700;
+}

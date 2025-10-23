@@ -1,0 +1,311 @@
+header{
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.icon{
+    color: #fff;
+    font-size: 18px;
+    border-radius: 100%;
+    padding: 8px 10px;
+}
+
+.logo_img{
+    border-radius: 50%;
+}
+
+.navlink{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navlink a{
+    text-decoration:none;
+    color: #444;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1558944351-c7e6928d0bb3') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  background: #2E9A92;
+  padding: 12px 28px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #24837d;
+}
+
+/* Mission */
+.mission {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.mission h2 {
+  color: #2E9A92;
+  margin-bottom: 20px;
+}
+
+.mission p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+.btn-outline {
+  border: 2px solid #2E9A92;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #2E9A92;
+  font-weight: 600;
+}
+
+.btn-outline:hover {
+  background: #2E9A92;
+  color: #fff;
+}
+
+/* Campaigns */
+.campaigns {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.campaigns h2 {
+  color: #2E9A92;
+  margin-bottom: 40px;
+}
+
+.campaign-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  color: #333;
+  margin: 15px;
+}
+
+.card p {
+  margin: 0 15px 10px;
+  color: #555;
+}
+
+.learn-btn {
+  display: inline-block;
+  margin: 10px 15px 20px;
+  color: #2E9A92;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* How It Works */
+.how-it-works {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.how-it-works h2 {
+  color: #2E9A92;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.step {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 150px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Donate */
+.donate {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.donate h2 {
+  color: #2E9A92;
+  margin-bottom: 15px;
+}
+
+.donate-options button {
+  background: #2E9A92;
+  color: #fff;
+  border: none;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.donate-options button:hover {
+  background: #24837d;
+}
+
+.donate-form {
+  margin-top: 20px;
+}
+
+.donate-form input {
+  padding: 10px;
+  margin: 8px;
+  width: 250px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+}
+
+.donate-btn {
+  background: #2E9A92;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.donate-btn:hover {
+  background: #24837d;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.testimonials h2 {
+  color: #2E9A92;
+  margin-bottom: 30px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.tcard {
+  background: #fff;
+  border-radius: 12px;
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tcard p {
+  color: #555;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.tcard h4 {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Footer */
+.footer {
+  background: #2E9A92;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .socials a {
+  color: #fff;
+  margin: 0 8px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
