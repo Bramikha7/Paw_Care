@@ -1,99 +1,142 @@
-header{
-      background: #fff;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+/* RESET + BODY */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 
-.navbar{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px;
+body {
+  background: #fff;
+  color: #333;
 }
 
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    
+/* HEADER */
+header {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.icon{
-    color: #fff;
-    font-size: 18px;
-    border-radius: 100%;
-    padding: 8px 10px;
-}
-
-.logo_img{
-    border-radius: 50%;
-}
-
-.navlink{
-    list-style: none;
-    display: flex;
-    gap: 30px;
-}
-
-.navlink a{
-    text-decoration:none;
-    color: #444;
-    font-weight: 500;
-    position: relative;
-    transition: color 0.3s;
-}
-
-.hero {
-  background: url('https://images.unsplash.com/photo-1558944351-c7e6928d0bb3') center/cover no-repeat;
-  height: 90vh;
+.navbar {
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo_img {
+  border-radius: 50%;
+}
+
+.navlink {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+  transition: all 0.3s ease
+}
+
+.navlink a:hover {
+  color: #2e9a92;
+}
+
+/* ✅ HERO SECTION */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 100px;
+  background: linear-gradient(135deg, #1e9a92,#2e9a92);
   color: #fff;
-  position: relative;
+  min-height: 90vh;
+  flex-wrap: wrap;
 }
 
-.hero::after {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.4);
+.hero-left {
+  flex: 1;
+  max-width: 600px;
 }
 
-.hero-content {
-  position: relative;
-  z-index: 1;
-  max-width: 700px;
-  padding: 20px;
+.hero-left .tag {
+  display: inline-block;
+  background: #fff;
+  color: #1e3c72;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
+.hero-left h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 20px;
   font-weight: 800;
 }
 
-.hero p {
+.hero-left p {
   font-size: 1.1rem;
-  margin-bottom: 25px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #f0f0f0;
 }
 
-.hero-btn {
-  background: #2E9A92;
-  padding: 12px 28px;
-  color: #fff;
-  text-decoration: none;
+.hero-buttons .hero-btn {
+  background: #fff;
+  color: #1e3c72;
+  padding: 12px 26px;
   border-radius: 8px;
+  text-decoration: none;
   font-weight: 600;
   transition: 0.3s;
 }
 
-.hero-btn:hover {
-  background: #24837d;
+.hero-buttons .hero-btn:hover {
+  background: #f0f0f0;
+  transform: translateY(-2px);
 }
 
-/* Mission */
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-right img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* RESPONSIVE HERO */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 30px;
+  }
+
+  .hero-right img {
+    max-width: 350px;
+    margin-top: 30px;
+  }
+}
+
+/* MISSION */
 .mission {
   text-align: center;
   padding: 60px 20px;
@@ -101,7 +144,7 @@ header{
 }
 
 .mission h2 {
-  color: #2E9A92;
+  color: #2e9a92;
   margin-bottom: 20px;
 }
 
@@ -113,27 +156,27 @@ header{
 }
 
 .btn-outline {
-  border: 2px solid #2E9A92;
+  border: 2px solid #2e9a92;
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
-  color: #2E9A92;
+  color: #2e9a92;
   font-weight: 600;
 }
 
 .btn-outline:hover {
-  background: #2E9A92;
+  background: #2e9a92;
   color: #fff;
 }
 
-/* Campaigns */
+/* CAMPAIGNS */
 .campaigns {
   text-align: center;
   padding: 60px 20px;
 }
 
 .campaigns h2 {
-  color: #2E9A92;
+  color: #2e9a92;
   margin-bottom: 40px;
 }
 
@@ -148,7 +191,7 @@ header{
   background: #fff;
   border-radius: 12px;
   width: 300px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: left;
 }
@@ -172,12 +215,12 @@ header{
 .learn-btn {
   display: inline-block;
   margin: 10px 15px 20px;
-  color: #2E9A92;
+  color: #2e9a92;
   text-decoration: none;
   font-weight: 600;
 }
 
-/* How It Works */
+/* HOW IT WORKS */
 .how-it-works {
   background: #f9f9f9;
   text-align: center;
@@ -185,7 +228,7 @@ header{
 }
 
 .how-it-works h2 {
-  color: #2E9A92;
+  color: #2e9a92;
   margin-bottom: 30px;
 }
 
@@ -201,63 +244,10 @@ header{
   border-radius: 12px;
   padding: 20px;
   width: 150px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Donate */
-.donate {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.donate h2 {
-  color: #2E9A92;
-  margin-bottom: 15px;
-}
-
-.donate-options button {
-  background: #2E9A92;
-  color: #fff;
-  border: none;
-  margin: 10px;
-  padding: 10px 20px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.donate-options button:hover {
-  background: #24837d;
-}
-
-.donate-form {
-  margin-top: 20px;
-}
-
-.donate-form input {
-  padding: 10px;
-  margin: 8px;
-  width: 250px;
-  border: 1.5px solid #ccc;
-  border-radius: 8px;
-}
-
-.donate-btn {
-  background: #2E9A92;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.donate-btn:hover {
-  background: #24837d;
-}
-
-/* Testimonials */
+/* TESTIMONIALS */
 .testimonials {
   background: #f9f9f9;
   text-align: center;
@@ -265,7 +255,7 @@ header{
 }
 
 .testimonials h2 {
-  color: #2E9A92;
+  color: #2e9a92;
   margin-bottom: 30px;
 }
 
@@ -281,7 +271,7 @@ header{
   border-radius: 12px;
   width: 280px;
   padding: 20px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .tcard p {
@@ -295,9 +285,9 @@ header{
   font-weight: 600;
 }
 
-/* Footer */
+/* FOOTER */
 .footer {
-  background: #2E9A92;
+  background: #2e9a92;
   color: #fff;
   padding: 20px;
   text-align: center;

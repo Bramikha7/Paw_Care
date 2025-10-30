@@ -37,9 +37,16 @@ body {
     display: flex;
     gap: 15px;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
 
 .buttons a{
     text-decoration: none;
+    display:flex;
+    justify-content: ;
+    flex-direction: right;
     padding-block-start: 8px 16px;
     border-radius: 6px;
     font-weight: 500;
