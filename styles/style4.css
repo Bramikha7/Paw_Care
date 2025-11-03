@@ -1,3 +1,13 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+
 header{
       background: #fff;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -8,6 +18,27 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 12px;
+}
+.navlink a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: #2e9a92;
+  transition: width 0.3s ease;
+}
+.navlink a:hover {
+  color: #2e9a92;
+}
+
+.navlink a:hover {
+  color: #111827;
+}
+
+.navlink a:hover::after {
+  width: 100%;
 }
 
 .logo{
@@ -28,25 +59,27 @@ header{
     border-radius: 50%;
 }
 
-.navlink{
-    list-style: none;
-    display: flex;
-    gap: 30px;
+/* Nav Links */
+.navlink {
+  list-style: none;
+  display: flex;
+  gap: 30px;
 }
 
-.navlink a{
-    text-decoration:none;
-    color: #444;
-    font-weight: 500;
-    position: relative;
-    transition: color 0.3s;
-    transition: all 0.3s ease
+.navlink a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
 }
+
 
 
 /* About Hero */
 .about-hero {
-  background: url('https://images.unsplash.com/photo-1592194996308-7b43878e84a6') center/cover no-repeat;
+  background: url('../assets/puppies.jpg') center/cover no-repeat;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -180,4 +213,19 @@ header{
 nav a.active {
   color: #2E9A92;
   font-weight: 700;
+}
+
+/* FOOTER */
+.footer {
+  background: #2e9a92;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .socials a {
+  color: #fff;
+  margin: 0 8px;
+  font-size: 1.2rem;
+  text-decoration: none;
 }

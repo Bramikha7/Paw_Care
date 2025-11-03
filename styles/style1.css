@@ -105,3 +105,7 @@ body {
   background-color: #24837d;
   transform: translateY(-2px);
 }
+ .hero-btn a{
+  text-decoration: none;
+  color: black;
+ }

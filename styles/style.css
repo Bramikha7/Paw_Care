@@ -16,6 +16,24 @@ header {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
+.navlink a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: #2e9a92;
+  transition: width 0.3s ease;
+}
+
+.navlink a:hover {
+  color: #111827;
+}
+
+.navlink a:hover::after {
+  width: 100%;
+}
 
 .navbar {
   display: flex;
@@ -34,10 +52,11 @@ header {
   border-radius: 50%;
 }
 
+/* Nav Links */
 .navlink {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 .navlink a {
@@ -45,9 +64,10 @@ header {
   color: #444;
   font-weight: 500;
   position: relative;
-  transition: color 0.3s;
-  transition: all 0.3s ease
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
 }
+
 
 .navlink a:hover {
   color: #2e9a92;
