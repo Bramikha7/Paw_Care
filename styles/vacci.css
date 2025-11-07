@@ -85,7 +85,7 @@ body {
   
 body {
   font-family: 'Inter', sans-serif;
-  color: #111827;
+  color: #2E9A92;;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
@@ -124,7 +124,7 @@ section {
 .drive-table h2, .drive-map h2 {
   margin-bottom: 15px;
   font-size: 1.25rem;
-  color: #0f172a;
+  color: #2E9A92;;
 }
 
 table {
@@ -148,7 +148,7 @@ th, td {
 
 .status.upcoming {
   background-color: #e0e7ff;
-  color: #4338ca;
+  color: #2E9A92;;
 }
 
 .drive-map img {
@@ -158,7 +158,7 @@ th, td {
 .vaccines h1 {
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #0f172a;
+  color: #2E9A92;;
 }
 
 .vaccine-cards {
@@ -189,7 +189,7 @@ th, td {
 
 .vaccine-card h3 {
   margin-bottom: 10px;
-  color: #111827;
+  color: #2E9A92;;
 }
 
 .vaccine-card p {
@@ -198,7 +198,7 @@ th, td {
 }
 .process h1 {
   font-size: 2rem;
-  color: #0f172a;
+  color: #2E9A92;;
 }
 
 .process .subtitle {
@@ -270,7 +270,7 @@ th, td {
 
 .safety-text h1 {
   font-size: 2rem;
-  color: #0f172a;
+  color: #2E9A92;;
   margin-bottom: 30px;
 }
 

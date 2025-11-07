@@ -67,7 +67,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(255, 255, 255, 0.3); /* light overlay */
+  background: rgba(255, 255, 255, 0.3); 
 }
 
 .hero-content {
@@ -102,10 +102,10 @@ body {
 }
 
 .hero-btn:hover {
-  background-color: #24837d;
+  background-color: ;
   transform: translateY(-2px);
 }
  .hero-btn a{
-  text-decoration: none;
+  text-decoration: none;#24837d
   color: black;
  }
