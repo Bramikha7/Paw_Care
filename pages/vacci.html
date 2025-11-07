@@ -18,291 +18,186 @@
           <li><a href="../pages/home.html">Home</a></li>
           <li><a href="../pages/about.html">About Us</a></li>
           <li><a href="../pages/vacci.html">Vaccination Info</a></li>
-          <li><a>Donate</a></li>
-          <li><a>Impact</a></li>
-          <li><a>Volunteer</a></li>
-          <li><a>Report Cases</a></li>
-          <li><a>Contact</a></li>
+          <li><a href="../pages/donate.html">Donate</a></li>
+          <li><a href="../pages/impact.html">Impact</a></li>
+          <li><a href="../pages/volunteer.html">Volunteer</a></li>
+          <li><a href="../pages/repot.html">Report Cases</a></li>
+          <li><a href="../pages/contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Vaccination Awareness</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section class="upcoming">
+    <h1>Upcoming Vaccination Drives</h1>
 
-    <!-- MAIN SECTION -->
-    <main class="container">
-      <h1 class="title">Upcoming Vaccination Drives</h1>
-      <p class="subtitle">Find vaccination drives happening in your area</p>
+    <div class="drive-container">
+      <div class="drive-table">
+        <h2>Scheduled Drives</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Location</th>
+              <th>Time</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dec 20</td>
+              <td>Central Community Park</td>
+              <td>09.00 AM</td>
+              <td><span class="status upcoming">Upcoming</span></td>
+            </tr>
+            <tr>
+              <td>Jan 05</td>
+              <td>Riverside City Square</td>
+              <td>10:00 AM</td>
+              <td><span class="status upcoming">Upcoming</span></td>
+            </tr>
+            <tr>
+              <td>Dec 22</td>
+              <td>Green Valley Shelter</td>
+              <td>11:30 AM</td>
+              <td><span class="status upcoming">Upcoming</span></td>
+            </tr>
+            <tr>
+              <td>nov 10</td>
+              <td>Oakwood Dog Park</td>
+              <td>08:00 AM</td>
+              <td><span class="status upcoming">Upcoming</span></td>
+            </tr>
+            <tr>
+              <td>Jan 30</td>
+              <td>Sunset Beach Boardwalk</td>
+              <td>09:30 AM</td>
+              <td><span class="status upcoming">Upcoming</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="drive-map">
+        <h2>Drive Locations Map</h2>
+        <img src="../assets/map.png" alt="Map with locations" />
+      </div>
+    </div>
+  </section>
+  <section class="vaccines">
+    <h1>Understanding the Vaccines We Use</h1>
+    <div class="vaccine-cards">
+      <div class="vaccine-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3004/3004458.png" alt="Rabies Vaccine" />
+        <h3>Rabies Vaccine</h3>
+        <p>A crucial vaccine providing immunity against the deadly rabies virus, essential for public health and animal welfare.</p>
+      </div>
 
-      <div class="drives-grid">
-        <!-- Card 1 -->
-        <div class="drive-card">
-          <div class="card-header">
-            <h2>Andheri West, Mumbai</h2>
-            <span class="expected">Expected: 50 dogs</span>
-          </div>
-          <span class="status confirmed">Confirmed</span>
-          <div class="card-details">
-            <p> <strong>January 20, 2024</strong></p>
-            <p> 9:00 AM - 4:00 PM</p>
-            <p> Near Andheri Metro Station</p>
+      <div class="vaccine-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="DHLPP Vaccine" />
+        <h3>DHLPP Vaccine</h3>
+        <p>A combination vaccine protecting against Distemper, Hepatitis, Leptospirosis, Parainfluenza, Parvovirus, and Coronavirus.</p>
+      </div>
+
+      <div class="vaccine-card">
+        <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Bordetella Vaccine" />
+        <h3>Bordetella Vaccine</h3>
+        <p>Targets kennel cough, a highly contagious respiratory disease common among dogs in close proximity.</p>
+      </div>
+    </div>
+  </section>
+  <section class="process">
+    <h1>Our Vaccination Process</h1>
+    <p class="subtitle">From identification to post-care monitoring, every step is carefully planned</p>
+    
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>Location Scouting</h3>
+          <p>Our team identifies areas with high stray dog populations through community reports and field surveys.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>Dog Capture & Assessment</h3>
+          <p>Trained professionals safely capture dogs and perform health assessments to determine vaccination needs.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>Vaccination Administration</h3>
+          <p>Licensed veterinarians administer vaccines following proper medical protocols and safety procedures.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+          <h3>Recovery & Monitoring</h3>
+          <p>Dogs are monitored for immediate reactions and released. Follow-up tracking ensures continued health.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-number">5</div>
+        <div class="step-content">
+          <h3>Documentation & Tracking</h3>
+          <p>Each dog receives identification and vaccination records maintained for future healthcare planning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="safety">
+    <div class="safety-container">
+      <div class="safety-text">
+        <h1>Safety & Post-Vaccination Care</h1>
+
+        <div class="safety-item">
+          <div class="text">
+            <h3>Safe Handling Protocols</h3>
+            <p>Our trained professionals use humane capture methods and stress-reduction techniques to ensure dog safety and comfort.</p>
           </div>
         </div>
 
-        <!-- Card 2 -->
-        <div class="drive-card">
-          <div class="card-header">
-            <h2>Bandra East, Mumbai</h2>
-            <span class="expected">Expected: 35 dogs</span>
-          </div>
-          <span class="status confirmed">Confirmed</span>
-          <div class="card-details">
-            <p> <strong>January 25, 2024</strong></p>
-            <p> 10:00 AM - 3:00 PM</p>
-            <p> Bandra Kurla Complex</p>
+        <div class="safety-item">
+          <div class="text">
+            <h3>Medical Monitoring</h3>
+            <p>Each dog is monitored for 30 minutes post-vaccination for any immediate reactions before release back to their territory.</p>
           </div>
         </div>
 
-        <!-- Card 3 -->
-        <div class="drive-card">
-          <div class="card-header">
-            <h2>Pune Camp Area</h2>
-            <span class="expected">Expected: 75 dogs</span>
-          </div>
-          <span class="status planning">Planning Stage</span>
-          <div class="card-details">
-            <p> <strong>February 2, 2024</strong></p>
-            <p> 8:00 AM - 5:00 PM</p>
-            <p> Near Camp Railway Station</p>
+        <div class="safety-item">
+          <div class="text">
+            <h3>Identification Tags</h3>
+            <p>Vaccinated dogs receive colored ear tags or collars for easy identification and to track vaccination status in future encounters.</p>
           </div>
         </div>
 
-        <!-- Card 4 -->
-        <div class="drive-card">
-          <div class="card-header">
-            <h2>Thane West</h2>
-            <span class="expected">Expected: 40 dogs</span>
-          </div>
-          <span class="status planning">Planning Stage</span>
-          <div class="card-details">
-            <p> <strong>February 8, 2024</strong></p>
-            <p> 9:00 AM - 4:00 PM</p>
-            <p> Thane Municipal Corporation</p>
+        <div class="safety-item">
+          <div class="text">
+            <h3>Emergency Protocols</h3>
+            <p>Emergency veterinary support is always available during drives, with immediate treatment protocols for any complications.</p>
           </div>
         </div>
       </div>
-    </main>
 
-    <!-- FLOATING BUTTONS -->
-    <button class="chat-btn"> Chat</button>
-    <button class="donate-btn"> Donate Now</button>
-
-    <!-- VOLUNTEER SECTION -->
-    <section class="volunteer-section">
-      <p>Want to help with upcoming drives? We need volunteers!</p>
-      <button class="volunteer-btn"> Volunteer for Drives</button>
-    </section>
-
-    <!-- TYPES OF VACCINES -->
-    <section class="vaccines-section">
-      <h2 class="vaccines-title">Types of Vaccines We Administer</h2>
-      <p class="vaccines-subtitle">
-        Comprehensive protection through medically proven vaccines
-      </p>
-
-      <div class="vaccine-grid">
-        <!-- Rabies -->
-        <div class="vaccine-card">
-          <div class="vaccine-icon red"></div>
-          <div class="vaccine-content">
-            <h3>Rabies Vaccine</h3>
-            <span class="priority critical">Critical Priority</span>
-            <p>
-              Essential protection against rabies, a fatal disease that can
-              spread to humans.
-            </p>
-            <p class="schedule"> Schedule: Annual</p>
-          </div>
-        </div>
-
-        <!-- DHPP -->
-        <div class="vaccine-card">
-          <div class="vaccine-icon blue"></div>
-          <div class="vaccine-content">
-            <h3>DHPP Vaccine</h3>
-            <span class="priority high">High Priority</span>
-            <p>
-              Protects against Distemper, Hepatitis, Parvovirus, and
-              Parainfluenza.
-            </p>
-            <p class="schedule"> Schedule: Annual</p>
-          </div>
-        </div>
-
-        <!-- Parvovirus -->
-        <div class="vaccine-card">
-          <div class="vaccine-icon green"></div>
-          <div class="vaccine-content">
-            <h3>Parvovirus Vaccine</h3>
-            <span class="priority high">High Priority</span>
-            <p>
-              Prevents deadly parvovirus that causes severe digestive illness.
-            </p>
-            <p class="schedule"> Schedule: Annual</p>
-          </div>
-        </div>
-
-        <!-- Bordetella -->
-        <div class="vaccine-card">
-          <div class="vaccine-icon purple"></div>
-          <div class="vaccine-content">
-            <h3>Bordetella Vaccine</h3>
-            <span class="priority medium">Medium Priority</span>
-            <p>
-              Protects against kennel cough, especially important in group
-              settings.
-            </p>
-            <p class="schedule"> Schedule: As needed</p>
-          </div>
-        </div>
+      <div class="safety-image">
+        <img src="../assets/about.jpg" alt="Dog receiving care" />
       </div>
-    </section>
-    <!-- OUR VACCINATION PROCESS -->
-    <section class="process-section">
-      <h2 class="process-title">Our Vaccination Process</h2>
-      <p class="process-subtitle">
-        From identification to post-care monitoring, every step is carefully
-        planned
-      </p>
-
-      <div class="process-steps">
-        <div class="process-step">
-          <div class="step-number">1</div>
-          <div class="step-content">
-            <h3><i class="fas fa-map-marker-alt"></i> Location Scouting</h3>
-            <p>
-              Our team identifies areas with high stray dog populations through
-              community reports and field surveys.
-            </p>
-          </div>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">2</div>
-          <div class="step-content">
-            <h3><i class="fas fa-users"></i> Dog Capture & Assessment</h3>
-            <p>
-              Trained professionals safely capture dogs and perform health
-              assessments to determine vaccination needs.
-            </p>
-          </div>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">3</div>
-          <div class="step-content">
-            <h3><i class="fas fa-syringe"></i> Vaccination Administration</h3>
-            <p>
-              Licensed veterinarians administer vaccines following proper
-              medical protocols and safety procedures.
-            </p>
-          </div>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">4</div>
-          <div class="step-content">
-            <h3><i class="fas fa-check-circle"></i> Recovery & Monitoring</h3>
-            <p>
-              Dogs are monitored for immediate reactions and released. Follow-up
-              tracking ensures continued health.
-            </p>
-          </div>
-        </div>
-
-        <div class="process-step">
-          <div class="step-number">5</div>
-          <div class="step-content">
-            <h3>
-              <i class="fas fa-file-medical"></i> Documentation & Tracking
-            </h3>
-            <p>
-              Each dog receives identification and vaccination records are
-              maintained for future healthcare planning.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- SAFETY & POST-VACCINATION CARE -->
-    <section class="safety-section">
-      <div class="safety-container">
-        <div class="safety-content">
-          <h2 class="safety-title">Safety & Post-Vaccination Care</h2>
-
-          <div class="safety-item">
-            <div class="safety-icon green">
-              <i class="fas fa-check-circle"></i>
-            </div>
-            <div>
-              <h3>Safe Handling Protocols</h3>
-              <p>
-                Our trained professionals use humane capture methods and
-                stress-reduction techniques to ensure dog safety and comfort.
-              </p>
-            </div>
-          </div>
-
-          <div class="safety-item">
-            <div class="safety-icon blue">
-              <i class="fas fa-stethoscope"></i>
-            </div>
-            <div>
-              <h3>Medical Monitoring</h3>
-              <p>
-                Each dog is monitored for 30 minutes post-vaccination for any
-                immediate reactions before release back to their territory.
-              </p>
-            </div>
-          </div>
-
-          <div class="safety-item">
-            <div class="safety-icon purple">
-              <i class="fas fa-id-badge"></i>
-            </div>
-            <div>
-              <h3>Identification Tags</h3>
-              <p>
-                Vaccinated dogs receive colored ear tags or collars for easy
-                identification and to track vaccination status in future
-                encounters.
-              </p>
-            </div>
-          </div>
-
-          <div class="safety-item">
-            <div class="safety-icon orange">
-              <i class="fas fa-exclamation-triangle"></i>
-            </div>
-            <div>
-              <h3>Emergency Protocols</h3>
-              <p>
-                Emergency veterinary support is always available during drives,
-                with immediate treatment protocols for any complications.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="safety-image">
-          <img
-            src="../assets/banner.png"
-            alt="Dog safety during vaccination"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!--  FOOTER -->
-    <footer class="footer" id="contact">
+    </div>
+  </section>
+   <footer class="footer" id="contact">
       <div class="footer-content">
         <p>© 2025 PawCare. All Rights Reserved.</p>
         <div class="socials">
@@ -312,7 +207,6 @@
         </div>
       </div>
     </footer>
-  </body>
-</html>
-  </body>
+
+</body>
 </html>

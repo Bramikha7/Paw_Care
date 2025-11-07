@@ -1,6 +1,4 @@
-/* =====================================================
-   RESET & BODY
-===================================================== */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +11,6 @@ body {
   color: #222;
 }
 
-/* =====================================================
-   HEADER & NAVIGATION BAR
-===================================================== */
 .header {
   background: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -52,7 +47,6 @@ body {
   color: #1a1a1a;
 }
 
-/* Nav Links */
 .navlink {
   list-style: none;
   display: flex;
@@ -87,441 +81,196 @@ body {
   width: 100%;
 }
 
-/* Responsive Navbar */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
 
-  .navlink {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
+  
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111827;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
-/* =====================================================
-   MAIN CONTENT - CONTAINERS
-===================================================== */
-.container {
-  max-width: 1200px;
-  margin: 60px auto;
-  padding: 0 20px;
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+}
+
+section {
+  padding: 60px 20px;
   text-align: center;
 }
-
-.title {
-  font-size: 2.2rem;
-  color: #111;
-  margin-bottom: 8px;
-}
-
-.subtitle {
-  color: #666;
-  font-size: 1rem;
+.upcoming h1 {
+  font-size: 2rem;
   margin-bottom: 40px;
 }
 
-/* =====================================================
-   DRIVE CARDS GRID
-===================================================== */
-.drives-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 25px;
-}
-
-.drive-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 20px;
-  text-align: left;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
-}
-
-.drive-card:hover {
-  transform: translateY(-4px);
-}
-
-.card-header {
+.drive-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.card-header h2 {
-  font-size: 1.2rem;
-  color: #222;
-}
-
-.expected {
-  font-size: 0.9rem;
-  color: #666;
-}
-
-/* Status tags */
-.status {
-  display: inline-block;
-  padding: 4px 10px;
-  font-size: 0.8rem;
-  border-radius: 6px;
-  margin: 10px 0;
-  font-weight: 600;
-}
-
-.confirmed {
-  background: #dcfce7;
-  color: #166534;
-}
-
-.planning {
-  background: #fef9c3;
-  color: #854d0e;
-}
-
-/* Details */
-.card-details p {
-  font-size: 0.95rem;
-  margin: 6px 0;
-  color: #444;
-}
-
-/* Button */
-.btn {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  margin-top: 15px;
-  background: #f9fafb;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #2e9a92;
-  color: #fff;
-  border-color: #2e9a92;
-}
-
-/* Floating Buttons */
-.chat-btn, .donate-btn {
-  position: fixed;
-  bottom: 20px;
-  border: none;
-  border-radius: 30px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 12px 20px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.chat-btn {
-  left: 20px;
-  background: #fff;
-  color: #333;
-}
-
-.donate-btn {
-  right: 20px;
-  background: #111;
-  color: #fff;
-}
-
-.donate-btn:hover {
-  background: #2e9a92;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .title {
-    font-size: 1.6rem;
-  }
-  .drives-grid {
-    grid-template-columns: 1fr;
-  }
-  .header {
-    justify-content: center;
-  }
-}
-
-/* =====================================================
-   VOLUNTEER SECTION
-===================================================== */
-.volunteer-section {
-  text-align: center;
-  padding: 50px 20px 30px;
-}
-
-.volunteer-section p {
-  color: #333;
-  font-size: 1.1rem;
-  margin-bottom: 15px;
-}
-
-.volunteer-btn {
-  background: #111;
-  color: #fff;
-  padding: 12px 25px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-.volunteer-btn:hover {
-  background: #2e9a92;
-}
-
-/* =====================================================
-   VACCINES SECTION
-===================================================== */
-.vaccines-section {
-  background: #f6f8fa;
-  padding: 70px 20px;
-  text-align: center;
-}
-
-.vaccines-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 8px;
-}
-
-.vaccines-subtitle {
-  color: #555;
-  margin-bottom: 50px;
-}
-
-.vaccine-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 25px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-/* Vaccine Card */
-.vaccine-card {
-  background: #fff;
-  border-radius: 12px;
-  display: flex;
-  gap: 15px;
-  padding: 20px;
-  text-align: left;
-  border-left: 5px solid #eee;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-  transition: 0.3s;
-}
-
-.vaccine-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
-}
-
-/* Icons */
-.vaccine-icon {
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-}
-
-.vaccine-icon.red {
-  background: #fee2e2;
-}
-.vaccine-icon.blue {
-  background: #dbeafe;
-}
-.vaccine-icon.green {
-  background: #dcfce7;
-}
-.vaccine-icon.purple {
-  background: #ede9fe;
-}
-
-/* Text */
-.vaccine-content h3 {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #111;
-}
-
-.vaccine-content p {
-  font-size: 0.95rem;
-  color: #444;
-  margin: 6px 0;
-}
-
-.schedule {
-  font-size: 0.9rem;
-  color: #666;
-}
-
-/* Priority Labels */
-.priority {
-  font-size: 0.75rem;
-  padding: 3px 10px;
-  border-radius: 6px;
-  font-weight: 600;
-  margin-left: 10px;
-}
-
-.critical {
-  background: #fee2e2;
-  color: #991b1b;
-}
-
-.high {
-  background: #fef3c7;
-  color: #92400e;
-}
-
-.medium {
-  background: #e0e7ff;
-  color: #3730a3;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .vaccine-card {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-  .vaccine-icon {
-    margin-bottom: 10px;
-  }
-}
-
-/* =====================================================
-   VACCINATION PROCESS SECTION
-===================================================== */
-.process-section {
-  background: #fff;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.process-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 10px;
-}
-
-.process-subtitle {
-  color: #555;
-  margin-bottom: 50px;
-}
-
-.process-steps {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.process-step {
-  display: flex;
   align-items: flex-start;
-  gap: 15px;
-  background: #f9fafb;
-  border-radius: 12px;
-  padding: 20px 25px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  border-left: 4px solid #111;
-  transition: 0.3s;
-}
-
-.process-step:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.step-number {
-  background: #111;
-  color: #fff;
-  font-weight: 700;
-  font-size: 1.2rem;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.step-content {
-  text-align: left;
-  flex: 1;
-}
-
-.step-content h3 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 6px;
-}
-
-.step-content p {
-  color: #555;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  .process-step {
-    flex-direction: column;
-    text-align: center;
-  }
-  .step-number {
-    margin: 0 auto 10px;
-  }
-  .step-content {
-    text-align: center;
-  }
-}
-
-/* =====================================================
-   SAFETY & POST-VACCINATION CARE
-===================================================== */
-.safety-section {
-  background: #f8fafc;
-  padding: 90px 20px;
-}
-
-.safety-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
 }
 
-.safety-content {
-  flex: 1 1 55%;
+.drive-table, .drive-map {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px 30px;
 }
 
-.safety-title {
+.drive-table h2, .drive-map h2 {
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: #0f172a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.95rem;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status.upcoming {
+  background-color: #e0e7ff;
+  color: #4338ca;
+}
+
+.drive-map img {
+  width: 250px;
+  margin-top: 15px;
+}
+.vaccines h1 {
   font-size: 2rem;
-  font-weight: 700;
-  color: #111;
+  margin-bottom: 40px;
+  color: #0f172a;
+}
+
+.vaccine-cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.vaccine-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 20px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.vaccine-card:hover {
+  transform: translateY(-6px);
+}
+
+.vaccine-card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+.vaccine-card h3 {
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.vaccine-card p {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+.process h1 {
+  font-size: 2rem;
+  color: #0f172a;
+}
+
+.process .subtitle {
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.process-steps {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #111827;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.step-content h3 {
+  margin-bottom: 6px;
+  font-size: 1.05rem;
+  color: #111827;
+}
+
+.step-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+.safety {
+  background: #f9fafb;
+  padding: 60px 20px;
+  border-radius: 12px;
+  margin-top: 60px;
+}
+
+.safety-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.safety-text {
+  flex: 1 1 500px;
+  text-align: left;
+}
+
+.safety-text h1 {
+  font-size: 2rem;
+  color: #0f172a;
   margin-bottom: 30px;
 }
 
@@ -532,158 +281,44 @@ body {
   margin-bottom: 25px;
 }
 
-.safety-item h3 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 5px;
-}
-
-.safety-item p {
-  color: #555;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.safety-icon {
-  font-size: 1.4rem;
-  padding: 10px;
+.safety-item .icon {
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
 }
 
-.safety-icon.green {
-  background: #d1fae5;
-  color: #16a34a;
+.safety-item .text h3 {
+  font-size: 1.05rem;
+  color: #111827;
+  margin: 0 0 5px;
 }
-.safety-icon.blue {
-  background: #dbeafe;
-  color: #2563eb;
-}
-.safety-icon.purple {
-  background: #ede9fe;
-  color: #7c3aed;
-}
-.safety-icon.orange {
-  background: #fff7ed;
-  color: #f97316;
+
+.safety-item .text p {
+  color: #4b5563;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 .safety-image {
-  flex: 1 1 40%;
+  flex: 1 1 420px;
+  display: flex;
+  justify-content: center;
 }
 
 .safety-image img {
   width: 100%;
+  max-width: 480px;
   border-radius: 16px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .safety-container {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .safety-item {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .safety-image {
-    margin-top: 30px;
-  }
-}
-
-/* =====================================================
-   VACCINATION DRIVE LOCATIONS
-===================================================== */
-.map-section {
-  background: #ffffff;
-  padding: 90px 20px;
-  text-align: center;
-}
-
-.map-container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.map-container h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #111827;
-  margin-bottom: 8px;
-}
-
-.map-container p {
-  color: #6b7280;
-  font-size: 1rem;
-  margin-bottom: 40px;
-}
-
-.map-placeholder {
-  background: #f9fafb;
-  border: 2px dashed #d1d5db;
-  border-radius: 16px;
-  padding: 70px 30px;
-  max-width: 900px;
-  margin: 0 auto;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
-}
-
-.map-placeholder i {
-  font-size: 3rem;
-  color: #6b7280;
-  margin-bottom: 20px;
-}
-
-.map-placeholder h3 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #1f2937;
-  margin-bottom: 10px;
-}
-
-.map-placeholder p {
-  color: #6b7280;
-  margin-bottom: 30px;
-  font-size: 0.95rem;
-}
-
-.request-btn {
-  background: white;
-  color: #111827;
-  border: 1px solid #d1d5db;
-  border-radius: 10px;
-  padding: 10px 18px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.request-btn i {
-  margin-right: 8px;
-  color: #111827;
-}
-
-.request-btn:hover {
-  background: #111827;
-  color: white;
-  border-color: #111827;
-}
-
-@media (max-width: 768px) {
-  .map-placeholder {
-    padding: 50px 20px;
-  }
-}
-
-/* FOOTER */
 .footer {
   background: #2e9a92;
   color: #fff;
