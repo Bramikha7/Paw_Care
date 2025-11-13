@@ -7,10 +7,9 @@
 }
 
 body {
-  background-color: #f8f9ff;
+  background: #fff;
   color: #333;
 }
-
 
 header {
   background: #fff;
@@ -51,6 +50,8 @@ header {
 .logo_img {
   border-radius: 50%;
 }
+
+
 .navlink {
   list-style: none;
   display: flex;
@@ -69,4 +70,225 @@ header {
 
 .navlink a:hover {
   color: #2e9a92;
+}
+
+
+/* HERO SECTION */
+.hero {
+  background: url('../assets/about.jpg') center/cover no-repeat; 
+  height:60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  top:0; left: 0;
+  width:100%; height:100%;
+  background:rgb(0, 0, 0,0.4);
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content  {
+  position: relative;
+  z-index:1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f8f9ff;
+  color: #333;
+}
+
+/* Layout */
+.donation-section {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.donation-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Left Side */
+.donation-options {
+  flex: 1 1 600px;
+}
+
+.donation-options h2 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.amount-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.amount-card {
+  background: #fff;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  text-align: center;
+  padding: 25px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.amount-card:hover {
+  border-color: #2e9a92;
+  transform: translateY(-3px);
+}
+
+.amount-card.active {
+  border-color: #2e9a92;
+  background-color: #e6f4f3;
+}
+
+.amount-card .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.amount-card h3 {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.amount-card .price {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #111827;
+}
+
+.custom-amount {
+  margin-top: 30px;
+}
+
+.custom-amount input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Right Side */
+.donation-form {
+  flex: 1 1 350px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.amount-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f5f9;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.amount-display h2 {
+  color: #2e9a92;
+  font-size: 1.5rem;
+}
+
+/* Payment method */
+.payment-method {
+  margin-bottom: 20px;
+}
+
+.payment-method h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.payment-method label {
+  display: block;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.tax-benefit {
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.terms {
+  margin-bottom: 15px;
+}
+
+.donate-btn {
+  background: #2e9a92;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.donate-btn:hover {
+  background: #27847c;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .donation-container {
+    flex-direction: column;
+  }
 }

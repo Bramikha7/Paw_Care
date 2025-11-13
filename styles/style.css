@@ -1,4 +1,4 @@
-/* RESET + BODY */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,6 @@ body {
   color: #333;
 }
 
-/* HEADER */
 header {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -52,7 +51,7 @@ header {
   border-radius: 50%;
 }
 
-/* Nav Links */
+
 .navlink {
   list-style: none;
   display: flex;
@@ -73,7 +72,7 @@ header {
   color: #2e9a92;
 }
 
-/* ✅ HERO SECTION */
+
 .hero {
   display: flex;
   align-items: center;
@@ -142,21 +141,7 @@ header {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* RESPONSIVE HERO */
-@media (max-width: 900px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-    padding: 60px 30px;
-  }
 
-  .hero-right img {
-    max-width: 350px;
-    margin-top: 30px;
-  }
-}
-
-/* MISSION */
 .mission {
   text-align: center;
   padding: 60px 20px;
@@ -189,7 +174,6 @@ header {
   color: #fff;
 }
 
-/* CAMPAIGNS */
 .campaigns {
   text-align: center;
   padding: 60px 20px;
@@ -240,7 +224,7 @@ header {
   font-weight: 600;
 }
 
-/* HOW IT WORKS */
+
 .how-it-works {
   background: #f9f9f9;
   text-align: center;
@@ -267,7 +251,7 @@ header {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* TESTIMONIALS */
+
 .testimonials {
   background: #f9f9f9;
   text-align: center;
@@ -305,17 +289,97 @@ header {
   font-weight: 600;
 }
 
-/* FOOTER */
 .footer {
-  background: #2e9a92;
+  background-color: #2e9a92; 
   color: #fff;
-  padding: 20px;
-  text-align: center;
+  padding: 60px 20px 30px;
+  font-family: 'Inter', sans-serif;
 }
 
-.footer .socials a {
-  color: #fff;
-  margin: 0 8px;
-  font-size: 1.2rem;
-  text-decoration: none;
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
 }
+
+.footer-brand {
+  flex: 1 1 250px;
+}
+
+.footer-brand .logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  color: #e8f5e9;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Footer Links Section */
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.footer-links h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #e8f5e9;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+  color: #c8e6c9;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #e8f5e9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+    gap: 30px;
+  }
+}
+

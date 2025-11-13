@@ -88,8 +88,8 @@ body {
 }
 
 /* Button */
-.hero-btn {
-  background-color: #2E9A92;   /* PawCare teal */
+/* .hero-btn {
+  background-color: #2E9A92;   
   color: #fff;
   border: none;
   padding: 12px 28px;
@@ -99,11 +99,26 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(46, 154, 146, 0.3);
+  z-index:100;
+} */
+
+.hero-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
 }
 
-.hero-btn:hover {
+/* .hero-btn:hover {
   background-color: ;
   transform: translateY(-2px);
+} */
+ .hero-btn:hover {
+  background-color: #e65500;
 }
  .hero-btn a{
   text-decoration: none;#24837d

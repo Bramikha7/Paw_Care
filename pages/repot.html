@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/report.css">
 </head>
 <body>
     <header>
@@ -32,5 +33,220 @@
         </ul>
       </nav>
     </header>
-</body>
-</html>
+     <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <button class="join-btn">🐾 Join Our Team</button>
+      <h1>Volunteer with PawCare</h1>
+      <p>Make a hands-on difference in animal welfare. Join our passionate team of volunteers and help create healthier communities for street dogs.</p>
+    </div>
+  </section>
+ 
+  <!-- MAIN CONTAINER -->
+  <main class="report-container">
+    <!-- LEFT SIDE: FORM -->
+    <section class="form-card">
+      <h2>Case Report Form</h2>
+      <p>Fill in the details about the stray dogs you've spotted. All fields marked with * are required.</p>
+
+      <form>
+        <!-- YOUR INFORMATION -->
+        <div class="form-section">
+          <h3> Your Information</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Your Name *</label>
+              <input type="text" placeholder="Enter your name" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number *</label>
+              <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+            </div>
+          </div>
+          <div class="form-group full-width">
+            <label>Email Address *</label>
+            <input type="email" placeholder="your.email@example.com" required />
+          </div>
+        </div>
+
+        <!-- LOCATION DETAILS -->
+        <div class="form-section">
+          <h3> Location Details</h3>
+          <div class="form-group full-width">
+            <label>Street Address *</label>
+            <input type="text" placeholder="Enter street name, landmark" required />
+          </div>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>City *</label>
+              <input type="text" placeholder="e.g., Bangalore" required />
+            </div>
+            <div class="form-group">
+              <label>Area/Locality *</label>
+              <input type="text" placeholder="e.g., Koramangala" required />
+            </div>
+            <div class="form-group">
+              <label>Pincode *</label>
+              <input type="text" placeholder="560001" required />
+            </div>
+          </div>
+          <div class="form-group full-width">
+            <label>Nearby Landmark</label>
+            <input type="text" placeholder="e.g., Near Metro Station" />
+          </div>
+        </div>
+
+        <!-- CASE DETAILS -->
+        <div class="form-section">
+          <h3> Case Details</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Number of Dogs *</label>
+              <input type="number" placeholder="e.g., 3" required />
+            </div>
+            <div class="form-group">
+              <label>Urgency Level *</label>
+              <select required>
+                <option value="">Select urgency</option>
+                <option>Low - Regular stray dogs</option>
+                <option>Medium - Multiple dogs, regular area</option>
+                <option>High - Injured or aggressive dog</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group full-width">
+            <label>Detailed Description *</label>
+            <textarea placeholder="Please describe: Dog's appearance, behavior, health condition, best time to visit, etc." rows="4" required></textarea>
+          </div>
+          <div class="form-group full-width">
+            <label>Best Time to Visit</label>
+            <input type="text" placeholder="e.g., Morning 7-9 AM, Evening 5-7 PM" />
+          </div>
+        </div>
+
+        <!-- UPLOAD PHOTOS -->
+        <div class="form-section">
+          <h3> Upload Photos (Optional)</h3>
+          <div class="upload-box">
+            <div class="upload-icon">⬆️</div>
+            <p>Click to upload or drag and drop</p>
+            <small>PNG, JPG up to 5MB (helps NGOs identify the dogs)</small>
+            <input type="file" id="fileUpload" multiple />
+          </div>
+        </div>
+
+        <!-- CHECKBOXES -->
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" required />
+            I confirm that the information provided is accurate and I agree to be contacted by NGO partners for verification or updates. *
+          </label>
+          <label>
+            <input type="checkbox" />
+            I would like to receive updates about this case via email/SMS.
+          </label>
+        </div>
+
+        <!-- SUBMIT -->
+        <div class="submit-section">
+          <button type="submit" class="submit-btn"> Submit Case Report</button>
+          <p class="submit-note">
+            Your report will be reviewed and assigned to the nearest NGO partner within 24 hours.
+          </p>
+        </div>
+      </form>
+    </section>
+
+    <!-- RIGHT SIDE -->
+    <aside class="side-info">
+      <div class="emergency-card">
+        <h3> Emergency Contact</h3>
+        <p>For immediate emergencies (injured/aggressive dogs):</p>
+        <a href="tel:1800-XXX-XXXX" class="call-btn"> Call 1800-XXX-XXXX</a>
+      </div>
+
+      <div class="recent-card">
+        <h3> Recent Cases</h3>
+
+        <div class="case-item">
+          <div class="case-header">
+            <h4>MG Road, Bangalore</h4>
+            <span class="status assigned">Assigned to NGO</span>
+          </div>
+          <p class="case-id">RC2025001</p>
+          <p> NGO: Compassion Unlimited Plus Action</p>
+          <p>3 dogs • 2 hours ago</p>
+        </div>
+
+        <div class="case-item">
+          <div class="case-header">
+            <h4>Indiranagar, Bangalore</h4>
+            <span class="status completed">Vaccination Completed</span>
+          </div>
+          <p class="case-id">RC2025002</p>
+          <p> NGO: CUPA</p>
+          <p>2 dogs • 5 hours ago</p>
+        </div>
+
+        <div class="case-item">
+          <div class="case-header">
+            <h4>Koramangala, Bangalore</h4>
+            <span class="status progress">In Progress</span>
+          </div>
+          <p class="case-id">RC2025003</p>
+          <p> NGO: People For Animals</p>
+          <p>5 dogs • 1 day ago</p>
+        </div>
+      </div>
+
+      <a href="#" class="donate-btn"> Donate Now</a>
+      <div class="donate-image">
+  <img src="../assets/sign_img.jpg" alt="Stray dog" />
+  <p>Every small act of kindness makes a big difference 🐾</p>
+</div>
+    </aside>
+    
+
+  </main>
+  
+  </body>
+  </html> <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <div class="logo">🐾 PawCare</div>
+      <p>Dedicated to vaccinating stray dogs and creating a healthier future.</p>
+
+    <div class="footer-links">
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Donate</a></li>
+          <li><a href="#">Volunteer</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Vaccination Info</a></li>
+          <li><a href="#">Impact Stories</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 PawCare. All rights reserved.</p>
+  </div>
+</footer>

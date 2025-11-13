@@ -33,4 +33,109 @@
         </ul>
       </nav>
     </header>
-  
+<body>
+  <section class="hero">
+    <div class="hero-content">
+      <button class="join-btn">🐾 Join Our Team</button>
+      <h1>Volunteer with PawCare</h1>
+      <p>Make a hands-on difference in animal welfare. Join our passionate team of volunteers and help create healthier communities for street dogs.</p>
+    </div>
+  </section>
+  <section class="donation-section">
+    <div class="donation-container">
+      
+      <!-- LEFT SIDE -->
+      <div class="donation-options">
+        <h2>Choose Your Impact Level</h2>
+
+        <div class="amount-grid">
+          <div class="amount-card" data-amount="500">
+            <div class="icon">💗</div>
+            <h3>Basic Care</h3>
+            <p class="price">₹500</p>
+            <p>Vaccinate 1 dog</p>
+          </div>
+
+          <div class="amount-card" data-amount="1000">
+            <div class="icon">🛡️</div>
+            <h3>Essential Protection</h3>
+            <p class="price">₹1,000</p>
+            <p>Vaccinate 2 dogs + basic checkup</p>
+          </div>
+
+          <div class="amount-card" data-amount="2500">
+            <div class="icon">🌍</div>
+            <h3>Community Impact</h3>
+            <p class="price">₹2,500</p>
+            <p>Vaccinate 5 dogs + health monitoring</p>
+          </div>
+
+          <div class="amount-card" data-amount="5000">
+            <div class="icon">🏅</div>
+            <h3>Champion Supporter</h3>
+            <p class="price">₹5,000</p>
+            <p>Vaccinate 10 dogs + emergency care fund</p>
+          </div>
+        </div>
+
+        <!-- Custom amount -->
+        <div class="custom-amount">
+          <h3>Custom Amount</h3>
+          <input type="number" id="customAmount" placeholder="Enter your desired amount (₹)">
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="donation-form">
+        <h3>💳 Secure Payment</h3>
+
+        <div class="amount-display">
+          <p>Donation Amount:</p>
+          <h2 id="donationAmount">₹0</h2>
+        </div>
+
+        <!-- Payment Method -->
+        <div class="payment-method">
+          <h4>Payment Method</h4>
+          <label><input type="radio" name="payment" value="card" checked> Credit/Debit Card</label>
+          <label><input type="radio" name="payment" value="upi"> UPI</label>
+          <label><input type="radio" name="payment" value="netbanking"> Net Banking</label>
+        </div>
+
+        <!-- Donor Info -->
+        <form id="donationForm">
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" required placeholder="Enter your full name">
+          </div>
+
+          <div class="form-group">
+            <label>Email *</label>
+            <input type="email" required placeholder="Enter your email">
+          </div>
+
+          <div class="form-group">
+            <label>Phone Number *</label>
+            <input type="tel" required placeholder="+91 98765 43210">
+          </div>
+
+          <div class="tax-benefit">
+            <p>📘 Your donation is eligible for tax exemption under Section 80G. You'll receive a tax receipt via email.</p>
+          </div>
+
+          <div class="terms">
+            <label>
+              <input type="checkbox" required>
+              I agree to the terms and conditions
+            </label>
+          </div>
+
+          <button type="submit" class="donate-btn">Donate Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="../donation.js"></script>
+</body>
+</html>
