@@ -70,11 +70,8 @@ header {
 .navlink a:hover {
   color: #2e9a92;
 }
-
-
-/* HERO SECTION */
 .hero {
-  background: url('../assets/about.jpg') center/cover no-repeat; 
+  background: url('../assets/report.jpg') center/cover no-repeat; 
   height:60vh;
   display: flex;
   justify-content: center;
@@ -101,7 +98,6 @@ header {
   z-index:1;
 }
 
-/* ===== MAIN REPORT SECTION ===== */
 .report-container {
   display: flex;
   gap: 30px;
@@ -110,7 +106,6 @@ header {
   padding: 0 20px;
 }
 
-/* ===== FORM CARD ===== */
 .form-card {
   background: #fff;
   flex: 2;
@@ -179,7 +174,6 @@ header {
   grid-column: span 2;
 }
 
-/* Upload Box */
 .upload-box {
   border: 2px dashed #cbd5e1;
   border-radius: 12px;
@@ -203,7 +197,6 @@ header {
   margin-top: 10px;
 }
 
-/* Checkboxes */
 .checkbox-group {
   display: flex;
   flex-direction: column;
@@ -217,7 +210,6 @@ header {
   margin-right: 8px;
 }
 
-/* Submit Section */
 .submit-section {
   text-align: center;
   margin-top: 25px;
@@ -246,7 +238,6 @@ header {
   color: #64748b;
 }
 
-/* ===== SIDE INFO ===== */
 .side-info {
   flex: 1;
   display: flex;
@@ -254,7 +245,6 @@ header {
   gap: 20px;
 }
 
-/* Emergency Card */
 .emergency-card {
   background: #fee2e2;
   border-radius: 15px;
@@ -287,7 +277,6 @@ header {
   background: #7f1d1d;
 }
 
-/* Recent Cases */
 .recent-card {
   background: #fff;
   border-radius: 15px;
@@ -339,7 +328,6 @@ header {
   font-size: 0.85rem;
 }
 
-/* Donate Button */
 .donate-btn {
   background: #0f172a;
   color: #fff;
@@ -372,7 +360,6 @@ header {
   color: #475569;
 }
 
-/* ===== FOOTER ===== */
 .footer {
   background-color: #2e9a92;
   color: #fff;
@@ -451,117 +438,3 @@ header {
   color: #e8f5e9;
 }
 
-/* ======================
-   RESPONSIVE DESIGN 
-====================== */
-
-/* Tablets (<=1024px) */
-@media (max-width: 1024px) {
-  .navbar {
-    padding: 12px 20px;
-  }
-
-  .report-container {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .form-card {
-    padding: 25px;
-  }
-
-  .side-info {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  .emergency-card,
-  .recent-card {
-    flex: 1 1 45%;
-  }
-}
-
-/* Mobile Devices (<=768px) */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-  }
-
-  .navlink {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .report-container {
-    flex-direction: column;
-    padding: 0 15px;
-  }
-
-  .form-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .full-width {
-    grid-column: span 1;
-  }
-
-  .form-card {
-    padding: 20px;
-  }
-
-  .side-info {
-    flex-direction: column;
-  }
-
-  .submit-btn {
-    width: 100%;
-  }
-
-  .footer-container {
-    flex-direction: column;
-    text-align: center;
-    gap: 30px;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-  }
-
-  .footer-links h4 {
-    margin-bottom: 8px;
-  }
-
-  .footer-bottom {
-    font-size: 0.85rem;
-  }
-}
-
-/* Very Small Devices (<=480px) */
-@media (max-width: 480px) {
-  .logo img {
-    width: 40px;
-    height: 40px;
-  }
-
-  .form-card h2 {
-    font-size: 1.3rem;
-  }
-
-  .form-section h3 {
-    font-size: 1rem;
-  }
-
-  .submit-btn {
-    padding: 12px;
-    font-size: 0.95rem;
-  }
-
-  .footer {
-    padding: 40px 15px;
-  }
-}

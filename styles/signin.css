@@ -23,7 +23,6 @@ body {
   max-width: 1100px;
 }
 
-/* LEFT SIDE */
 .signin-left {
   flex: 1;
   padding: 50px 40px;
@@ -92,7 +91,6 @@ body {
   font-size: 0.9rem;
 }
 
-/* RIGHT SIDE */
 .signin-right {
   flex: 1;
   background: #fff;
@@ -119,7 +117,6 @@ body {
   font-size: 0.95rem;
 }
 
-/* INPUTS */
 .input-box {
   display: flex;
   align-items: center;

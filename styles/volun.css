@@ -71,10 +71,8 @@ header {
   color: #2e9a92;
 }
 
-
-/* HERO SECTION */
 .hero {
-  background: url('../assets/about.jpg') center/cover no-repeat; 
+  background: url('../assets/volunteer.jpg') center/cover no-repeat; 
   height:60vh;
   display: flex;
   justify-content: center;
@@ -117,7 +115,6 @@ header {
   background: #ffe5e0;
 }
 
-/* WHY VOLUNTEER */
 .why-volunteer {
   padding: 70px 20px;
   text-align: center;
@@ -146,7 +143,7 @@ header {
   background: #fff;
   border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 10px 10px 5px #2e9a92;
   transition: transform 0.3s ease;
 }
 
@@ -164,7 +161,6 @@ header {
   color: #555;
 }
 
-/* FORM SECTION */
 .form-section {
   background: #f9fafb;
   text-align: center;
@@ -262,12 +258,8 @@ textarea {
   background: #fff;
   border-radius: 15px;
   padding: 30px 20px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 10px 10px 5px #2e9a92;
   transition: transform 0.3s ease;
-}
-
-.story-card:hover {
-  transform: translateY(-5px);
 }
 
 .vol-img {
@@ -276,11 +268,6 @@ textarea {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
-}
-
-.stars {
-  color: #ffc107;
-  font-size: 1.2rem;
 }
 
 .quote {
@@ -311,27 +298,6 @@ textarea {
   margin-top: 10px;
 }
 
-/* Responsive Navbar */
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .navlink {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-
-  .story-grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 .footer {
   background-color: #2e9a92; 
@@ -366,7 +332,6 @@ textarea {
   line-height: 1.5;
 }
 
-/* Footer Links Section */
 .footer-links {
   display: flex;
   flex-wrap: wrap;
@@ -403,7 +368,6 @@ textarea {
   color: #c8e6c9;
 }
 
-/* Footer Bottom */
 .footer-bottom {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -413,17 +377,5 @@ textarea {
   color: #e8f5e9;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 
-  .footer-links {
-    justify-content: center;
-    gap: 30px;
-  }
-}
 

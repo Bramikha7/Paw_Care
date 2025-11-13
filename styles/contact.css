@@ -71,10 +71,8 @@ header {
   color: #2e9a92;
 }
 
-
-/* HERO SECTION */
 .hero {
-  background: url('../assets/about.jpg') center/cover no-repeat; 
+  background: url('../assets/contact.jpg') center/cover no-repeat; 
   height:60vh;
   display: flex;
   justify-content: center;
@@ -100,7 +98,7 @@ header {
   position: relative;
   z-index:1;
 }
-/* contact via */
+
 .contact-via{
   text-align: center;
   padding:60px 20px;
@@ -113,15 +111,16 @@ margin-bottom: 40px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 150px;
 }
 .card{
   background: white;
   border-radius: 12px;
   width:300px;
-  box-shadow: 0 3px 10px rgb(0,0,0,0.1);
+  box-shadow: 10px 10px 5px #2e9a92;
   overflow:hidden;
   text-align: left;
+  height: 350px;
 }
 .card img{
   width:300px;
@@ -131,27 +130,18 @@ margin-bottom: 40px;
 .card h3{
   color:black;
   margin: 15px;
+  text-align: center;
 }
 .card p{
   margin:0,15px,10px;
   color:black;
+  text-align: center;
 }
-
-
-
-/* Contact Form */
 .contact-form-section {
   display: flex;
   justify-content: center;
   padding: 80px 20px;
   text-align: center;
-  /* display: flex; */
-  /* justify-content: center;       Centers horizontally */
-  /* align-items: center;           Centers vertically */
-  /* min-height: 100vh;             Makes it fill the full screen height */
-  /* background-color: #f8f9ff;     Soft light background */
-  /* text-align: center; */
-  /* padding: 40px 20px; */
 }
 
 .form-card {
@@ -219,10 +209,10 @@ textarea {
   background: #2e9a92;
 }
 
-/* FAQ Section */
 .faq-section {
   text-align: center;
   padding: 80px 20px;
+  box-shadow: 0 3px 10px rgb(0,0,0,0.1);
 }
 
 .faq-section h2 {
@@ -241,7 +231,7 @@ textarea {
   margin: 0 auto;
   background: white;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+   box-shadow: 10px 10px 5px #2e9a92;
   padding: 20px 30px;
 }
 
@@ -260,7 +250,6 @@ summary::marker {
   display: none;
 }
 
-/* Emergency Section */
 .emergency-section {
   background-color: #fff5f5;
   padding: 80px 20px;
@@ -355,7 +344,6 @@ summary::marker {
   line-height: 1.5;
 }
 
-/* Footer Links Section */
 .footer-links {
   display: flex;
   flex-wrap: wrap;
@@ -392,7 +380,6 @@ summary::marker {
   color: #c8e6c9;
 }
 
-/* Footer Bottom */
 .footer-bottom {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -402,18 +389,6 @@ summary::marker {
   color: #e8f5e9;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .footer-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 
-  .footer-links {
-    justify-content: center;
-    gap: 30px;
-  }
-}
 
 
