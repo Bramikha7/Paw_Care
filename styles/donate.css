@@ -29,7 +29,10 @@ header {
 .navlink a:hover {
   color: #111827;
 }
-
+.title a{
+  text-decoration: none;
+  color:black;
+}
 .navlink a:hover::after {
   width: 100%;
 }

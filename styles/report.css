@@ -9,7 +9,10 @@ body {
   background: #fff;
   color: #333;
 }
-
+.title a{
+  text-decoration: none;
+  color:black;
+}
 header {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);

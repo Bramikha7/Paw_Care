@@ -56,7 +56,10 @@ header {
   display: flex;
   gap: 30px;
 }
-
+.title a{
+  text-decoration: none;
+  color:black;
+}
 .navlink a {
   text-decoration: none;
   color: #444;

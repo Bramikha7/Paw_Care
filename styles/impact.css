@@ -109,7 +109,10 @@ header {
 .stories-section h2{
     color:#2E9A92
 }
-
+.title a{
+  text-decoration: none;
+  color:black;
+}
 .story-card {
   background: #fff;
   border-radius: 12px;
