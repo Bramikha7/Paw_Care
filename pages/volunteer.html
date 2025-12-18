@@ -1,180 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../styles/volun.css">
+  <meta charset="UTF-8">
+  <title>PawCare | Volunteer Application</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="../styles/volun.css">
 </head>
 <body>
-   <header>
-      <nav class="navbar">
-        <div class="logo">
-          <span class="icon">
-            <img
-              src="../assets/logo.png"
-              alt="logo"
-              width="80px"
-              height="80px"
-              class="logo_img"
-            />
-          </span>
-          <h2>Paw Care</h2>
-        </div>
-        <ul class="navlink">
-          <li><a href="../pages/home.html">Home</a></li>
-          <li><a href="../pages/about.html">About Us</a></li>
-          <li><a href="../pages/vacci.html">Vaccination Info</a></li>
-          <li><a href="../pages/donate.html">Donate</a></li>
-          <li><a href="../pages/impact.html">Impact</a></li>
-          <li><a href="../pages/volunteer.html">Volunteer</a></li>
-          <li><a href="../pages/repot.html">Report Cases</a></li>
-          <li><a href="../pages/contact.html">Contact</a></li>
-          <li><a href="../pages/signin.html">Sign In</a></li>
-        </ul>
-      </nav>
-    </header> 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Volunteer with PawCare</h1>
-      <p>Make a hands-on difference in animal welfare. Join our passionate team of volunteers and help create healthier communities for street dogs.</p>
-    </div>
-  </section>
-  <section class="why-volunteer">
-    <h2>Why Volunteer with Us?</h2>
-    <p>Discover the benefits of joining our mission-driven community.</p>
 
-    <div class="benefits-grid">
-      <div class="benefit-card">
-        <h3> Make Real Impact</h3>
-        <p>Be part of vaccination drives, rescue missions, and awareness campaigns that save lives.</p>
-      </div>
-
-      <div class="benefit-card">
-        <h3> Learn & Grow</h3>
-        <p>Gain hands-on experience in animal care, teamwork, and leadership through field volunteering.</p>
-      </div>
-
-      <div class="benefit-card">
-        <h3> Build Community</h3>
-        <p>Connect with like-minded individuals who share your compassion for animals and social good.</p>
-      </div>
-    </div>
-  </section>
-  <section class="form-section">
-    <h2>Volunteer Application Form</h2>
+  <div class="container">
+    <h1>Volunteer Application Form</h1>
     <p>Fill out the form below to join our team of change-makers.</p>
 
-    <form class="volunteer-form">
-      <div class="form-group">
-        <label>Full Name</label>
-        <input type="text" placeholder="Enter your full name" required />
-      </div>
+    <div class="form-card">
+      <form action="../index.html">
 
-      <div class="form-group">
-        <label>Email</label>
-        <input type="email" placeholder="Enter your email address" required />
-      </div>
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter your full name" required>
+        </div>
 
-      <div class="form-group">
-        <label>Phone Number</label>
-        <input type="tel" placeholder="Enter your phone number" required />
-      </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email address" required>
+        </div>
 
-      <div class="form-group">
-        <label>Preferred Role</label>
-        <select required>
-          <option value="">Select your role</option>
-          <option>Vaccination Drive Volunteer</option>
-          <option>Animal Rescuer</option>
-          <option>Awareness Campaign Volunteer</option>
-          <option>Administrative Support</option>
-        </select>
-      </div>
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" placeholder="Enter your phone number" required>
+        </div>
 
-      <div class="form-group">
-        <label>Why do you want to volunteer with PawCare?</label>
-        <textarea rows="4" placeholder="Write your motivation here..." required></textarea>
-      </div>
+        
 
-      <button type="submit" class="submit-btn">Submit Application</button>
-    </form>
-  </section>
-  <section class="stories">
-    <h2>Volunteer Stories</h2>
-    <p>Hear from our amazing volunteers about their experiences</p>
+        <div class="form-group">
+          <label>Why do you want to volunteer with PawCare?</label>
+          <textarea placeholder="Write your motivation here..." required></textarea>
+        </div>
 
-    <div class="story-grid">
-      <div class="story-card">
-        <img src="../assets/volunteer2.jpg" alt="Volunteer 1" class="vol-img" />
-        <p class="quote">
-          <em>"Volunteering with PawCare has been the most rewarding experience. Seeing sick dogs recover and thrive gives me so much joy."</em>
-        </p>
-        <h3>Meera Joshi</h3>
-        <p class="role">Field Worker (2 years)</p>
-        <div class="hours">120+ hours contributed</div>
-      </div>
-      <div class="story-card">
-        <img src="../assets/volunteer1.jpg" alt="Volunteer 2" class="vol-img" />
-        <p class="quote">
-          <em>"Being able to use my driving skills to help animals in need feels amazing. The team is like family now."</em>
-        </p>
-        <h3>Arjun Patel</h3>
-        <p class="role">Driver & Logistics (1 year)</p>
-        <div class="hours">80+ hours contributed</div>
-      </div>
-      <div class="story-card">
-        <img src="../assets/volunteer3.jpg" alt="Volunteer 3" class="vol-img" />
-        <p class="quote">
-          <em>"Creating content that helps raise awareness and funds for street dogs is incredibly fulfilling work."</em>
-        </p>
-        <h3>Sneha Kumar</h3>
-        <p class="role">Social Media Manager (6 months)</p>
-        <div class="hours">95+ hours contributed</div>
-      </div>
-    </div>
-  </section>
+        <button type="submit" class="btn-submit">
+          Submit Application
+        </button>
 
-   <footer class="footer">
-  <div class="footer-container">
-    <div class="footer-brand">
-      <div class="logo">🐾 PawCare</div>
-      <p>Dedicated to vaccinating stray dogs and creating a healthier future.</p>
-
-    <div class="footer-links">
-      <div>
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="../pages/home.html">Home</a></li>
-          <li><a href="../pages/about.html">About Us</a></li>
-          <li><a href="../pages/donate.html">Donate</a></li>
-          <li><a href="../pages/volunteer.html">Volunteer</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="../pages/vacci.html">Vaccination Info</a></li>
-          <li><a href="../pages/impact.html">Impact Stories</a></li>
-          <li><a href="../pages/contact.html">FAQs</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4>Legal</h4>
-        <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-        </ul>
-      </div>
+      </form>
     </div>
   </div>
 
-  <div class="footer-bottom">
-    <p>© 2025 PawCare. All rights reserved.</p>
-  </div>
-</footer>
-</footer>
 </body>
 </html>

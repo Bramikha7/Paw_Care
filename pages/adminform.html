@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PawCare | NGO Sign Up</title>
+  <link rel="stylesheet" href="../styles/adminform.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">❤️ PawCare</div>
+      <h1>NGO Partner Registration</h1>
+      <p>Register your organization to collaborate with PawCare</p>
+    </div>
+
+    <!-- Form Card -->
+
+    <form class="form-card" action="../pages/admin.html">
+
+      <h2>Organization Details</h2>
+
+      <div class="form-group">
+        <label>NGO Name *</label>
+        <input type="text" placeholder="e.g. Compassion Unlimited Plus Action" required />
+      </div>
+
+      <div class="form-group">
+        <label>Registration Number *</label>
+        <input type="text" placeholder="NGO Registration ID" required />
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Contact Person *</label>
+          <input type="text" placeholder="Full Name" required />
+        </div>
+
+        <div class="form-group">
+          <label>Phone Number *</label>
+          <input type="tel" placeholder="+91 XXXXX XXXXX" required />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Email Address *</label>
+        <input type="email" placeholder="ngo@email.com" required />
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>City *</label>
+          <input type="text" placeholder="e.g. Bangalore" required />
+        </div>
+
+        <div class="form-group">
+          <label>Service Area *</label>
+          <input type="text" placeholder="e.g. South Bangalore" required />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>About Your NGO</label>
+        <textarea rows="4" placeholder="Brief description of your work"></textarea>
+      </div>
+
+      <div class="form-group upload">
+        <label>Upload Registration Proof (optional)</label>
+        <input type="file" />
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" required />
+        <span>I confirm the information is correct</span>
+      </div>
+
+      <button type="submit" class="submit-btn">
+        Submit for Verification
+      </button>
+
+      <p class="note">
+        Your application will be reviewed by PawCare admin within 24–48 hours.
+      </p>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
