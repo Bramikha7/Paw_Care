@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: #185a9d;
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Container for cards */
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Common card style */
+.info-card {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card h3 {
+  color: #185a9d;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* Case report card slight color difference */
+.case {
+  border-left: 5px solid #43cea2;
+}
