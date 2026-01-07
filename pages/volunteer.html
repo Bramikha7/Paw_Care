@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PawCare | Volunteer Application</title>
+  <title>Volunteer Application</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- External CSS -->
@@ -15,7 +15,7 @@
     <p>Fill out the form below to join our team of change-makers.</p>
 
     <div class="form-card">
-      <form action="../index.html">
+      <form action="../pages/signin.html">
 
         <div class="form-group">
           <label>Full Name</label>
@@ -32,16 +32,19 @@
           <input type="tel" placeholder="Enter your phone number" required>
         </div>
 
-        
-
         <div class="form-group">
-          <label>Why do you want to volunteer with PawCare?</label>
-          <textarea placeholder="Write your motivation here..." required></textarea>
+          <label>Password</label>
+          <input type="password" placeholder="Enter your password" required>
         </div>
 
         <button type="submit" class="btn-submit">
-          Submit Application
+          Sign Up
         </button>
+
+        <!-- New line added -->
+        <p class="signin-text">
+         <b> Already have an account?</b> <a href="../pages/signin.html">Sign In</a>
+        </p>
 
       </form>
     </div>

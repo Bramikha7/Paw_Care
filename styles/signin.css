@@ -26,7 +26,7 @@ body {
 .signin-left {
   flex: 1;
   padding: 50px 40px;
-  background: linear-gradient(to bottom right,  #81c4be,#89c4be);
+  background: linear-gradient(135deg, #bbecdd, #2e9a92);
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,0 +1,271 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.navlink a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background: #2e9a92;
+  transition: width 0.3s ease;
+}
+
+.navlink a:hover {
+  color: #111827;
+}
+
+.navlink a:hover::after {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+}
+.title a{
+  text-decoration: none;
+  color:black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo_img {
+  border-radius: 50%;
+}
+
+
+.navlink {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navlink a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+}
+
+
+.navlink a:hover {
+  color: #2e9a92;
+}
+
+.about-hero {
+  background: url('../assets/puppies.jpg') center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.about-hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.about-content {
+  position: relative;
+  z-index: 1;
+}
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.our-story {
+  text-align: center;
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+.our-story h2 {
+  color: #2E9A92;
+  margin-bottom: 20px;
+}
+.our-story p {
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #555;
+  line-height: 1.7;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.member {
+  width: 220px;
+  text-align: center;
+}
+.member img {
+  width: 100%;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.member h3 {
+  color: #333;
+}
+.member p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+
+.why-vaccination {
+  padding: 60px 20px;
+  text-align: center;
+}
+.why-vaccination h2 {
+  color: #2E9A92;
+  margin-bottom: 30px;
+}
+.why-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.why-content img {
+  width: 400px;
+  border-radius: 12px;
+}
+.why-content p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+.why-content ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+.why-content li {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+
+.partners {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 60px 20px;
+}
+.partners h2 {
+  color: #2E9A92;
+  margin-bottom: 30px;
+}
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.partner-logos img {
+  width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+.partner-logos img:hover {
+  filter: grayscale(0);
+}
+
+
+nav a.active {
+  color: #2E9A92;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+.footer {
+  background-color: #2e9a92; 
+  color: #fff;
+  padding: 60px 20px 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  /* height: 60px; */
+  margin: 0 auto ;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-shrink: ; */
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-brand {
+  flex: 1 1 250px;
+}
+
+.footer-brand .logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  color: #e8f5e9;
+  font-size: 0.95rem;
+  /* margin-top: 100px; */
+  margin-bottom: 200px;
+  line-height: 1.5;
+}
+
+
+
+
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  margin-top: 90px;
+  font-size: 0.9rem;
+  color: #e8f5e9;
+}
+
+
+
+

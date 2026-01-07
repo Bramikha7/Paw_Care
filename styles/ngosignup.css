@@ -1,51 +1,90 @@
+/* ---------- RESET ---------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* ---------- PAGE BACKGROUND ---------- */
 body {
-  height: 100vh;
-  background: linear-gradient(120deg, #43cea2, #185a9d);
+  min-height: 100vh;
+   background: linear-gradient(135deg, #bbecdd, #2e9a92);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
+/* ---------- SIGNUP CONTAINER ---------- */
 .signup-container {
-  background: white;
-  padding: 30px;
-  width: 350px;
-  border-radius: 12px;
-  text-align: center;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .signup-container h2 {
-  margin-bottom: 20px;
-  color: #185a9d;
+  text-align: center;
+  color: #1b4332;
+  margin-bottom: 25px;
+}
+
+/* ---------- FORM ---------- */
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .signup-container input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 8px;
+  padding: 12px 14px;
+  border-radius: 10px;
   border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
 }
 
+.signup-container input:focus {
+  border-color: #2e9a92;
+  box-shadow: 0 0 0 2px rgba(45, 106, 79, 0.15);
+}
+
+/* ---------- BUTTON ---------- */
 .signup-container button {
-  width: 100%;
-  padding: 10px;
+  margin-top: 10px;
+  padding: 14px;
+  background: #2e9a92;
+  color: #ffffff;
   border: none;
-  border-radius: 8px;
-  background: #185a9d;
-  color: white;
-  font-size: 16px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
 
 .signup-container button:hover {
-  background: #0f3c66;
+  background: #2e9a92;
 }
+
+/* ---------- SIGN IN LINK ---------- */
+.signin-text {
+  text-align: center;
+  margin-top: 14px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signin-text a {
+  color: #2e9a92;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.signin-text a:hover {
+  text-decoration: underline;
+}
+
