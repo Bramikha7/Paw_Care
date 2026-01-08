@@ -9,7 +9,7 @@ body {
   background: #f4f6f8;
 }
 
-/* Sidebar */
+
 .sidebar {
   width: 240px;
   background: #0f172a;
@@ -39,13 +39,13 @@ body {
   background: #1e293b;
 }
 
-/* Main */
+
 .main {
   flex: 1;
   padding: 20px 30px;
 }
 
-/* Header */
+
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -53,7 +53,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* Stats */
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -73,7 +73,7 @@ body {
   margin-bottom: 6px;
 }
 
-/* Tables */
+
 .tables {
   display: grid;
   grid-template-columns: 1fr;
@@ -106,7 +106,7 @@ th {
   background: #f9fafb;
 }
 
-/* Status */
+
 .pending {
   color: #d97706;
   font-weight: 600;
@@ -117,7 +117,7 @@ th {
   font-weight: 600;
 }
 
-/* Responsive */
+
 @media (max-width: 900px) {
   .stats {
     grid-template-columns: 1fr;

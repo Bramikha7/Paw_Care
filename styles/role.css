@@ -7,7 +7,33 @@ body {
   margin: 0;
   background: linear-gradient(135deg, #bbecdd, #2e9a92);
   min-height: 100vh;
+  position: relative;
 }
+
+
+.back-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-home a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  background: #ffffff;
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.back-home a:hover {
+  background: #000;
+  color: #fff;
+}
+
 
 .page {
   display: flex;
@@ -16,7 +42,7 @@ body {
   padding: 50px 16px;
 }
 
-/* Header */
+
 .header {
   text-align: center;
   margin-bottom: 40px;
@@ -38,7 +64,7 @@ body {
   font-size: 16px;
 }
 
-/* Role Cards */
+
 .role-container {
   display: flex;
   gap: 30px;
@@ -76,22 +102,21 @@ body {
   margin-bottom: 24px;
   line-height: 1.5;
 }
-
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 12px 24px;
   border-radius: 12px;
-  background:white;
-  color:black;
+  background: white;
+  color: black;
   font-weight: 600;
   text-decoration: none;
   transition: 0.3s;
-  border:  2px solid#000;
+  border: 2px solid #000;
 }
 
 .btn:hover {
-  opacity: 0.9;
+  background: #000;
+  color: #fff;
 }
 
 .btn.outline {
@@ -99,4 +124,6 @@ body {
   color: #000;
   border: 2px solid #000;
 }
+
+
 

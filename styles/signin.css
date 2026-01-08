@@ -319,5 +319,30 @@ label {
   color: #e8f5e9;
 }
 
+.back-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+}
+
+.back-home a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  background: #ffffff;
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.back-home a:hover {
+  background: #000;
+  color: #fff;
+}
+
+
 
 

@@ -1,4 +1,4 @@
-/* ---------- RESET ---------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ---------- NAVBAR ---------- */
 header {
   background: #ffffff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
@@ -71,13 +70,13 @@ header {
 .navlink a:hover {
   color: #2e9a92;
 }
-/* ---------- PAGE ---------- */
+
 body {
   background: #f9fafb;
   min-height: 100vh;
 }
 
-/* ---------- CONTAINER ---------- */
+
 .page-container {
   max-width: 1100px;
   margin: 40px auto;
@@ -96,14 +95,13 @@ body {
   margin-bottom: 35px;
 }
 
-/* ---------- GRID ---------- */
 .case-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
 }
 
-/* ---------- CASE CARD ---------- */
+
 .case-card {
   background: #ffffff;
   padding: 22px;
@@ -123,7 +121,7 @@ body {
   margin-bottom: 6px;
 }
 
-/* ---------- STATUS ---------- */
+
 .status {
   position: absolute;
   top: 18px;
@@ -146,7 +144,7 @@ body {
   background: #2d6a4f;
 }
 
-/* ---------- BUTTON ---------- */
+
 .action-btn {
   margin-top: 12px;
   padding: 10px;
@@ -176,11 +174,10 @@ body {
 
 .footer-container {
   max-width: 1200px;
-  /* height: 60px; */
   margin: 0 auto ;
   display: flex;
   flex-wrap: wrap;
-  /* flex-shrink: ; */
+  
   justify-content: space-between;
   gap: 40px;
 }
@@ -198,7 +195,6 @@ body {
 .footer-brand p {
   color: #e8f5e9;
   font-size: 0.95rem;
-  /* margin-top: 100px; */
   margin-bottom: 200px;
   line-height: 1.5;
 }

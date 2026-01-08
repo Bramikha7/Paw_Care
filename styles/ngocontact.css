@@ -323,11 +323,10 @@ summary::marker {
 
 .footer-container {
   max-width: 1200px;
-  /* height: 60px; */
+
   margin: 0 auto ;
   display: flex;
   flex-wrap: wrap;
-  /* flex-shrink: ; */
   justify-content: space-between;
   gap: 40px;
 }
@@ -345,7 +344,7 @@ summary::marker {
 .footer-brand p {
   color: #e8f5e9;
   font-size: 0.95rem;
-  /* margin-top: 100px; */
+ 
   margin-bottom: 200px;
   line-height: 1.5;
 }

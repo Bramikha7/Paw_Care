@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +7,36 @@
 
 body {
   min-height: 100vh;
-   background: linear-gradient(135deg, #bbecdd, #2e9a92);
+  background: linear-gradient(135deg, #bbecdd, #2e9a92);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #333;
+  position: relative;
 }
+.back-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-home a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  background: #ffffff;
+  padding: 8px 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.back-home a:hover {
+  background: #000;
+  color: #fff;
+}
+
 
 .container {
   width: 100%;
@@ -68,6 +91,7 @@ body {
   box-shadow: 0 0 0 2px rgba(45, 106, 79, 0.15);
 }
 
+
 .btn-submit {
   width: 100%;
   padding: 14px;
@@ -83,9 +107,10 @@ body {
 }
 
 .btn-submit:hover {
-  background: #2E9A92;
+  background: #238b84;
 }
-.signup-text,
+
+
 .signin-text {
   margin-top: 12px;
   font-size: 14px;
@@ -93,20 +118,12 @@ body {
   color: #2E9A92;
 }
 
-.signup-text a,
 .signin-text a {
   color: #2E9A92;
   font-weight: 600;
   text-decoration: none;
-
-}
-.signin-text b{
-  color:#2E9A92;
-  text-decoration: none;
 }
 
-.signup-text a:hover,
 .signin-text a:hover {
   text-decoration: underline;
 }
-

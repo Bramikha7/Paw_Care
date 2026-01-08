@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    /* ===== RESET ===== */
+    
     * {
       margin: 0;
       padding: 0;
@@ -20,7 +20,6 @@
       color: #222;
     }
 
-    /* ===== SIDEBAR ===== */
     .sidebar {
       width: 230px;
       background: #111827;
@@ -50,13 +49,13 @@
       background: #2e9a92;
     }
 
-    /* ===== MAIN ===== */
+   
     .main {
       flex: 1;
       padding: 25px;
     }
 
-    /* ===== TOP BAR ===== */
+   
     .topbar {
       display: flex;
       justify-content: space-between;
@@ -68,7 +67,7 @@
       font-size: 1.8rem;
     }
 
-    /* ===== STATS ===== */
+
     .stats {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -90,7 +89,7 @@
       color: #2e9a92;
     }
 
-    /* ===== TABLES ===== */
+  
     .tables {
       display: grid;
       grid-template-columns: 1fr;
@@ -123,7 +122,7 @@
       background: #f9fafb;
     }
 
-    /* ===== STATUS ===== */
+    
     .pending {
       color: #d97706;
       font-weight: 600;
@@ -134,7 +133,7 @@
       font-weight: 600;
     }
 
-    /* ===== ADMIN FORM ===== */
+   
     .admin-form {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -179,7 +178,7 @@
       word-wrap: break-word;
     }
 
-    /* ===== RESPONSIVE ===== */
+    
     @media (max-width: 768px) {
       body {
         flex-direction: column;
@@ -199,7 +198,7 @@
 
 <body>
 
-  <!-- SIDEBAR -->
+ 
   <aside class="sidebar">
     <h2>🐾 PawCare</h2>
     <ul>
@@ -213,16 +212,16 @@
     </ul>
   </aside>
 
-  <!-- MAIN CONTENT -->
+  
   <main class="main">
 
-    <!-- HEADER -->
+   
     <header class="topbar">
       <h1>Admin Dashboard</h1>
       <span>Welcome, Admin</span>
     </header>
 
-    <!-- STATS -->
+   
     <section class="stats">
       <div class="card">
         <h3>₹1,24,500</h3>
@@ -242,10 +241,10 @@
       </div>
     </section>
 
-    <!-- TABLES -->
+  
     <section class="tables">
 
-      <!-- DONATIONS -->
+      
       <div class="table-card">
         <h2>Recent Donations</h2>
         <table>
@@ -255,7 +254,7 @@
         </table>
       </div>
 
-      <!-- VOLUNTEERS -->
+      
       <div class="table-card">
         <h2>New Volunteers</h2>
         <table>
@@ -265,7 +264,6 @@
         </table>
       </div>
 
-      <!-- CASE REPORTS -->
       <div class="table-card">
         <h2>Recent Case Reports</h2>
         <table>
@@ -275,7 +273,7 @@
         </table>
       </div>
 
-      <!-- UPCOMING DRIVES FORM -->
+     
       <div class="table-card">
         <h2>Add Upcoming Vaccination Drive</h2>
         <form class="admin-form">
@@ -307,7 +305,6 @@
         </form>
       </div>
 
-      <!-- CONTACT MESSAGES -->
       <div class="table-card">
         <h2>Contact Messages</h2>
         <table>
