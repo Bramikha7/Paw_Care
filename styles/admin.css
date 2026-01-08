@@ -9,7 +9,6 @@ body {
   background: #f4f6f8;
 }
 
-
 .sidebar {
   width: 240px;
   background: #0f172a;
@@ -39,12 +38,10 @@ body {
   background: #1e293b;
 }
 
-
 .main {
   flex: 1;
   padding: 20px 30px;
 }
-
 
 .topbar {
   display: flex;
@@ -52,7 +49,6 @@ body {
   align-items: center;
   margin-bottom: 30px;
 }
-
 
 .stats {
   display: grid;
@@ -65,14 +61,13 @@ body {
   background: white;
   padding: 20px;
   border-radius: 16px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
 .card h3 {
   font-size: 26px;
   margin-bottom: 6px;
 }
-
 
 .tables {
   display: grid;
@@ -84,7 +79,7 @@ body {
   background: white;
   padding: 20px;
   border-radius: 16px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
 .table-card h2 {
@@ -96,7 +91,8 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   padding: 12px;
   text-align: left;
   border-bottom: 1px solid #eee;
@@ -105,7 +101,6 @@ th, td {
 th {
   background: #f9fafb;
 }
-
 
 .pending {
   color: #d97706;
@@ -118,11 +113,3 @@ th {
 }
 
 
-@media (max-width: 900px) {
-  .stats {
-    grid-template-columns: 1fr;
-  }
-  .sidebar {
-    display: none;
-  }
-}

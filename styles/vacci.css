@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -51,7 +50,6 @@ header {
   border-radius: 50%;
 }
 
-
 .navlink {
   list-style: none;
   display: flex;
@@ -67,14 +65,13 @@ header {
   transition: all 0.3s ease;
 }
 
-
 .navlink a:hover {
   color: #2e9a92;
 }
 
 .hero {
-  background: url('../assets/about.jpg') center/cover no-repeat; 
-  height:60vh;
+  background: url("../assets/about.jpg") center/cover no-repeat;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,12 +79,14 @@ header {
   text-align: center;
   position: relative;
 }
-.hero::after{
-  content:"";
-  position:absolute;
-  top:0; left: 0;
-  width:100%; height:100%;
-  background:rgb(0, 0, 0,0.4);
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.4);
 }
 
 .hero-content h1 {
@@ -95,23 +94,23 @@ header {
   margin-bottom: 10px;
 }
 
-.hero-content  {
+.hero-content {
   position: relative;
-  z-index:1;
+  z-index: 1;
 }
 
-
-  
 body {
-  font-family: 'Inter', sans-serif;
-  color: #2E9A92;;
+  font-family: "Inter", sans-serif;
+  color: #2e9a92;
   background-color: #ffffff;
   margin: 0;
   padding: 0;
   line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 700;
 }
@@ -133,17 +132,19 @@ section {
   flex-wrap: wrap;
 }
 
-.drive-table, .drive-map {
+.drive-table,
+.drive-map {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   padding: 20px 30px;
 }
 
-.drive-table h2, .drive-map h2 {
+.drive-table h2,
+.drive-map h2 {
   margin-bottom: 15px;
   font-size: 1.25rem;
-  color: #2E9A92;;
+  color: #2e9a92;
 }
 
 table {
@@ -152,14 +153,15 @@ table {
   text-align: left;
 }
 
-th, td {
+th,
+td {
   padding: 10px;
   border-bottom: 1px solid #e5e7eb;
   font-size: 0.95rem;
 }
-.title a{
+.title a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
 .status {
   padding: 6px 12px;
@@ -170,7 +172,7 @@ th, td {
 
 .status.upcoming {
   background-color: #e0e7ff;
-  color: #2E9A92;;
+  color: #2e9a92;
 }
 
 .drive-map img {
@@ -180,7 +182,7 @@ th, td {
 .vaccines h1 {
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #2E9A92;;
+  color: #2e9a92;
 }
 
 .vaccine-cards {
@@ -211,7 +213,7 @@ th, td {
 
 .vaccine-card h3 {
   margin-bottom: 10px;
-  color: #2E9A92;;
+  color: #2e9a92;
 }
 
 .vaccine-card p {
@@ -220,7 +222,7 @@ th, td {
 }
 .process h1 {
   font-size: 2rem;
-  color: #2E9A92;;
+  color: #2e9a92;
 }
 
 .process .subtitle {
@@ -292,7 +294,7 @@ th, td {
 
 .safety-text h1 {
   font-size: 2rem;
-  color: #2E9A92;;
+  color: #2e9a92;
   margin-bottom: 30px;
 }
 
@@ -340,12 +342,11 @@ th, td {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
-
 .footer {
-  background-color: #2e9a92; 
+  background-color: #2e9a92;
   color: #fff;
   padding: 60px 20px 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-container {
@@ -418,4 +419,3 @@ th, td {
   font-size: 0.9rem;
   color: #e8f5e9;
 }
-

@@ -173,7 +173,6 @@ select:focus {
   background: #1e1e40;
 }
 
-
 .signin-link {
   margin-top: 20px;
   color: #555;
@@ -187,10 +186,10 @@ select:focus {
   font-weight: 600;
 }
 .footer {
-  background-color: #2e9a92; 
+  background-color: #2e9a92;
   color: #fff;
   padding: 60px 20px 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-container {
@@ -262,5 +261,3 @@ select:focus {
   font-size: 0.9rem;
   color: #e8f5e9;
 }
-
-

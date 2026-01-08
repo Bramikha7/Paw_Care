@@ -1,39 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>NGO Partner Sign Up</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/ngosignup.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>NGO Partner Sign Up</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/ngosignup.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="back-home">
+      <a href="../index.html">← Back to Home</a>
+    </div>
 
- 
-  <div class="back-home">
-    <a href="../index.html">← Back to Home</a>
-  </div>
+    <div class="signup-container">
+      <h2>NGO Partner Registration</h2>
 
-  <div class="signup-container">
-    <h2>NGO Partner Registration</h2>
+      <form action="../pages/ngosignin.html">
+        <input type="text" placeholder="NGO Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <input type="text" placeholder="Phone Number" required />
+        <input type="text" placeholder="City" required />
+        <input type="password" placeholder="Password" required />
+        <input type="text" placeholder="Service Area" required />
+        <input type="text" placeholder="About NGO" required />
 
-    <form action="../pages/ngosignin.html">
-      <input type="text" placeholder="NGO Name" required>
-      <input type="email" placeholder="Email Address" required>
-      <input type="text" placeholder="Phone Number" required>
-      <input type="text" placeholder="City" required>
-      <input type="password" placeholder="Password" required>
-      <input type="text" placeholder="Service Area" required>
-      <input type="text" placeholder="About NGO" required>
+        <button type="submit">Sign Up</button>
 
-      <button type="submit">Sign Up</button>
-
-      <p class="signin-text">
-        Already have an account?
-        <a href="../pages/ngosignin.html">Sign In</a>
-      </p>
-    </form>
-  </div>
-
-</body>
+        <p class="signin-text">
+          Already have an account?
+          <a href="../pages/ngosignin.html">Sign In</a>
+        </p>
+      </form>
+    </div>
+  </body>
 </html>

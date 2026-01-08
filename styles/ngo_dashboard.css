@@ -50,7 +50,6 @@ header {
   border-radius: 50%;
 }
 
-
 .navlink {
   list-style: none;
   display: flex;
@@ -66,7 +65,6 @@ header {
   transition: all 0.3s ease;
 }
 
-
 .navlink a:hover {
   color: #2e9a92;
 }
@@ -75,7 +73,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 80px 100px;
-  background: linear-gradient(135deg, #1e9a92,#2e9a92);
+  background: linear-gradient(135deg, #1e9a92, #2e9a92);
   color: white;
   min-height: 90vh;
   flex-wrap: wrap;
@@ -137,7 +135,6 @@ header {
   height: 550px;
 }
 
-
 .mission {
   background: #ffffff;
   padding: 60px 30px;
@@ -155,7 +152,6 @@ header {
   margin: auto;
   color: #555;
 }
-
 
 .campaigns {
   padding: 60px 30px;
@@ -205,7 +201,6 @@ header {
   color: #555;
 }
 
-
 .how-it-works {
   padding: 60px 30px;
   text-align: center;
@@ -241,7 +236,6 @@ header {
   font-weight: 600;
 }
 
-
 .testimonials {
   padding: 60px 30px;
   max-width: 1200px;
@@ -274,17 +268,16 @@ header {
   color: #2e9a92;
 }
 
-
 .footer {
-  background-color: #2e9a92; 
+  background-color: #2e9a92;
   color: #fff;
   padding: 60px 20px 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-container {
   max-width: 1200px;
-  margin: 0 auto ;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -308,10 +301,6 @@ header {
   line-height: 1.5;
 }
 
-
-
-
-
 .footer-bottom {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -320,7 +309,3 @@ header {
   font-size: 0.9rem;
   color: #e8f5e9;
 }
-
-
-
-

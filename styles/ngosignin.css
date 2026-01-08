@@ -6,7 +6,7 @@
 }
 
 body {
-   background: linear-gradient(135deg, #bbecdd, #2e9a92);
+  background: linear-gradient(135deg, #bbecdd, #2e9a92);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -26,7 +26,7 @@ body {
 .signin-left {
   flex: 1;
   padding: 50px 40px;
-   background: linear-gradient(135deg, #bbecdd, #2e9a92);
+  background: linear-gradient(135deg, #bbecdd, #2e9a92);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -155,7 +155,7 @@ label {
 }
 
 .options a {
-  color: #2E9A92;
+  color: #2e9a92;
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -200,7 +200,6 @@ label {
   z-index: -1;
 }
 
-
 .social-login {
   display: flex;
   justify-content: space-between;
@@ -227,7 +226,7 @@ label {
 }
 
 .signup-text a {
-  color:  #1e9a92;
+  color: #1e9a92;
   text-decoration: none;
   font-weight: 600;
 }
@@ -239,14 +238,14 @@ label {
 }
 
 .terms a {
-  color: #2E9A92;
+  color: #2e9a92;
   text-decoration: none;
 }
 .footer {
-  background-color: #2e9a92; 
+  background-color: #2e9a92;
   color: #fff;
   padding: 60px 20px 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-container {
@@ -341,6 +340,3 @@ label {
   background: #000;
   color: #fff;
 }
-
-
-

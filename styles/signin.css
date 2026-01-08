@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to bottom right, );
+  background: linear-gradient(to bottom right);
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -155,7 +155,7 @@ label {
 }
 
 .options a {
-  color: #2E9A92;
+  color: #2e9a92;
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -200,7 +200,6 @@ label {
   z-index: -1;
 }
 
-
 .social-login {
   display: flex;
   justify-content: space-between;
@@ -227,7 +226,7 @@ label {
 }
 
 .signup-text a {
-  color:  #1e9a92;
+  color: #1e9a92;
   text-decoration: none;
   font-weight: 600;
 }
@@ -239,14 +238,14 @@ label {
 }
 
 .terms a {
-  color: #2E9A92;
+  color: #2e9a92;
   text-decoration: none;
 }
 .footer {
-  background-color: #2e9a92; 
+  background-color: #2e9a92;
   color: #fff;
   padding: 60px 20px 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .footer-container {
@@ -334,7 +333,7 @@ label {
   background: #ffffff;
   padding: 8px 14px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: 0.3s ease;
 }
 
@@ -342,7 +341,3 @@ label {
   background: #000;
   color: #fff;
 }
-
-
-
-
