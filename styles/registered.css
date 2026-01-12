@@ -73,13 +73,13 @@ body {
   min-height: 100vh;
 }
 
-.page-container {
+.pagecontainer {
   max-width: 1100px;
   margin: 40px auto;
   padding: 0 20px;
 }
 
-.page-container h1 {
+.pagecontainer h1 {
   text-align: center;
   color: #1b4332;
   margin-bottom: 8px;
@@ -91,13 +91,13 @@ body {
   margin-bottom: 35px;
 }
 
-.volunteer-grid {
+.volunteergrid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 25px;
 }
 
-.volunteer-card {
+.volunteercard {
   background: #ffffff;
   padding: 22px;
   border-radius: 16px;
@@ -106,30 +106,19 @@ body {
   transition: transform 0.3s ease;
 }
 
-.volunteer-card:hover {
+.volunteercard:hover {
   transform: translateY(-6px);
 }
 
-.volunteer-card h3 {
+.volunteercard h3 {
   color: #1b4332;
   margin-bottom: 10px;
 }
 
-.volunteer-card p {
+.volunteercard p {
   font-size: 14px;
   color: #444;
   margin-bottom: 6px;
-}
-
-.badge {
-  position: absolute;
-  top: 18px;
-  right: 18px;
-  background: #2d6a4f;
-  color: #ffffff;
-  padding: 5px 12px;
-  font-size: 12px;
-  border-radius: 20px;
 }
 
 .footer {
@@ -139,7 +128,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.footer-container {
+.footercontainer {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -148,24 +137,24 @@ body {
   gap: 40px;
 }
 
-.footer-brand {
+.footerbrand {
   flex: 1 1 250px;
 }
 
-.footer-brand .logo {
+.footerbrand .logo {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.footer-brand p {
+.footerbrand p {
   color: #e8f5e9;
   font-size: 0.95rem;
   margin-bottom: 200px;
   line-height: 1.5;
 }
 
-.footer-bottom {
+.footerbottom {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 20px;

@@ -72,7 +72,7 @@ header {
   color: #2e9a92;
 }
 
-.about-hero {
+.abouthero {
   background: url("../assets/puppies.jpg") center/cover no-repeat;
   height: 60vh;
   display: flex;
@@ -82,7 +82,7 @@ header {
   text-align: center;
   position: relative;
 }
-.about-hero::after {
+.abouthero::after {
   content: "";
   position: absolute;
   top: 0;
@@ -91,64 +91,40 @@ header {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
-.about-content {
+.aboutcontent {
   position: relative;
   z-index: 1;
 }
-.about-content h1 {
+.aboutcontent h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
-.our-story {
+.ourstory {
   text-align: center;
   padding: 60px 20px;
   background: #f9f9f9;
 }
-.our-story h2 {
+.ourstory h2 {
   color: #2e9a92;
   margin-bottom: 20px;
 }
-.our-story p {
+.ourstory p {
   max-width: 800px;
   margin: 0 auto 30px;
   color: #555;
   line-height: 1.7;
 }
-.team {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-.member {
-  width: 220px;
-  text-align: center;
-}
-.member img {
-  width: 100%;
-  height: 220px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-}
-.member h3 {
-  color: #333;
-}
-.member p {
-  color: #777;
-  font-size: 0.9rem;
-}
 
-.why-vaccination {
+.whyvaccination {
   padding: 60px 20px;
   text-align: center;
 }
-.why-vaccination h2 {
+.whyvaccination h2 {
   color: #2e9a92;
   margin-bottom: 30px;
 }
-.why-content {
+.whycontent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,49 +133,24 @@ header {
   max-width: 1000px;
   margin: 0 auto;
 }
-.why-content img {
+.whycontent img {
   width: 400px;
   border-radius: 12px;
 }
-.why-content p {
+.whycontent p {
   color: #555;
   line-height: 1.7;
   margin-bottom: 15px;
 }
-.why-content ul {
+.whycontent ul {
   list-style: none;
   text-align: left;
   padding: 0;
 }
-.why-content li {
+.whycontent li {
   margin-bottom: 8px;
   font-weight: 500;
   color: #333;
-}
-
-.partners {
-  background: #f9f9f9;
-  text-align: center;
-  padding: 60px 20px;
-}
-.partners h2 {
-  color: #2e9a92;
-  margin-bottom: 30px;
-}
-.partner-logos {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-.partner-logos img {
-  width: 150px;
-  height: auto;
-  filter: grayscale(100%);
-  transition: 0.3s;
-}
-.partner-logos img:hover {
-  filter: grayscale(0);
 }
 
 nav a.active {
@@ -214,7 +165,7 @@ nav a.active {
   font-family: "Inter", sans-serif;
 }
 
-.footer-container {
+.footercontainer {
   max-width: 1200px;
 
   margin: 0 auto;
@@ -224,24 +175,24 @@ nav a.active {
   gap: 40px;
 }
 
-.footer-brand {
+.footerbrand {
   flex: 1 1 250px;
 }
 
-.footer-brand .logo {
+.footerbrand .logo {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.footer-brand p {
+.footerbrand p {
   color: #e8f5e9;
   font-size: 0.95rem;
   margin-bottom: 200px;
   line-height: 1.5;
 }
 
-.footer-bottom {
+.footerbottom {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 20px;

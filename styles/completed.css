@@ -116,46 +116,6 @@ body {
   margin-bottom: 6px;
 }
 
-.status {
-  position: absolute;
-  top: 18px;
-  right: 18px;
-  padding: 5px 12px;
-  font-size: 12px;
-  border-radius: 20px;
-  color: #fff;
-}
-
-.status.open {
-  background: #dc3545;
-}
-
-.status.inprogress {
-  background: #f4a261;
-}
-
-.status.closed {
-  background: #2d6a4f;
-}
-
-.actionbutton {
-  margin-top: 12px;
-  padding: 10px;
-  width: 100%;
-  background: #2e9a92;
-  color: #ffffff;
-  border: none;
-  border-radius: 25px;
-  font-size: 14px;
-}
-
-.actionbutton:hover {
-  background: #2e9a92;
-}
-
-.actionbutton.disabled {
-  background: #adb5bd;
-}
 .footer {
   background-color: #2e9a92;
   color: #fff;
@@ -190,11 +150,31 @@ body {
   line-height: 1.5;
 }
 
-.footerbottom {
+.footer-bottom {
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   padding-top: 20px;
   margin-top: 90px;
   font-size: 0.9rem;
   color: #e8f5e9;
+}
+.action-btn {
+  margin-top: 12px;
+  padding: 10px;
+  width: 100%;
+  background: #2e9a92;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background: #2e9a92;
+}
+
+.action-btn.disabled {
+  background: #adb5bd;
+  cursor: not-allowed;
 }
