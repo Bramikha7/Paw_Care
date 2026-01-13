@@ -12,16 +12,7 @@ body {
 header {
   background: #fff;
 }
-.navlink a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0%;
-  height: 2px;
-  background: #2e9a92;
-  transition: width 0.3s ease;
-}
+
 
 .navlink a:hover {
   color: #111827;
