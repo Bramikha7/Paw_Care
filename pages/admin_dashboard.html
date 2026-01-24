@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paw Care Admin</title>
+    <link rel="stylesheet" href="../styles/admin_dashboard.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <h2 id="nav-logo">Paw Care Admin</h2>
+          <ul id="nav-menu">
+            <li><a href="#"> Logout</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="admin-wrapper container">
+      <aside class="sidebar">
+        <ul class="sidebar-menu">
+          <li>
+            <a href="#dashboard" class="active-page"
+              > Dashboard</a
+            >
+          </li>
+          <li>
+            <a href="#volunteers-section"
+              >Donations</a
+            >
+          </li>
+          <li>
+            <a href="#events-section"
+              >Vaccination Drive</a
+            >
+          </li>
+          <li>
+            <a href="#messages-section"
+              > Messages</a
+            >
+          </li>
+        </ul>
+      </aside>
+      <main class="main-content">
+        <div id="dashboard">
+          <h1 class="page-title">Admin Dashboard Overview</h1>
+          <section class="stats-grid">
+            <div class="stat-card">
+              
+              <h3>Donation</h3>
+              <p class="stat-value">500,000 kg</p>
+              <span class="stat-trend"
+                > +90% Growth</span
+              >
+            </div>
+            <div class="stat-card">
+              
+              <h3>Active Volunteers</h3>
+              <p class="stat-value">50,000+</p>
+              <span class="stat-trend"
+                > 12,000+ this month</span
+              >
+            </div>
+            <div class="stat-card">
+              
+              <h3>Upcoming Vaccination Drive</h3>
+              <p class="stat-value">4</p>
+              <span class="stat-trend"
+                > 3 Future Events</span
+              >
+            </div>
+            <div class="stat-card">
+              
+              <h3>Report Cases</h3>
+              <p class="stat-value">2,500+</p>
+              <span class="stat-trend"
+                > 420+ this month</span
+              >
+            </div>
+            <div class="stat-card">
+              
+              <h3>Completed Cases</h3>
+              <p class="stat-value">2,500+</p>
+              <span class="stat-trend"
+                > 420+ this month</span
+              >
+            </div>
+          </section>
+        </div>
+        
+          </section>
+        <div id="volunteers-section">
+          <h2 class="section-title">Donation</h2>
+          <div class="table-container card">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Donation Amount</th>
+                  <th>Payment Method</th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Priya</td>
+                  <td>priya@example.com</td>
+                  <td>500</td>
+                  <td>GPay</td>
+                  
+                </tr>
+                <tr>
+                  <td>Anu</td>
+                  <td>anu@example.com</td>
+                  <td>1000</td>
+                  <td>Card</td>
+                  
+                </tr>
+                <tr>
+                  <td>Rehana</td>
+                  <td>rehana@example.com</td>
+                  <td>1000</td>
+                  <td>GPay</td>
+                  
+                </tr>
+                <tr>
+                  <td>Yalini</td>
+                  <td>yalini@example.com</td>
+                  <td>500</td>
+                  <td>GPay</td>
+                 
+                </tr>
+                <tr>
+                  <td>Gopika</td>
+                  <td>gopika@example.com</td>
+                  <td>1500</td>
+                  <td>Card</td>
+                  
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div id="events-section">
+          <h2 class="section-title">Upcoming Vaccination Drives</h2>
+          <div class="events-list card">
+            <div class="event-item">
+              <div class="event-details">
+                <p class="event-id">ECO-2025-101</p>
+                <p class="event-name">Marina Beach Cleanup Drive</p>
+                <p class="event-time">15 Dec 2025 | 7:00 AM - 10:00 AM</p>
+              </div>
+              <div class="event-actions">
+                <button class="action-btn edit-btn">
+                   Edit
+                </button>
+                <button class="action-btn delete-btn">
+                   Delete
+                </button>
+              </div>
+            </div>
+            <div class="event-item">
+              <div class="event-details">
+                <p class="event-id">ECO-2025-102</p>
+                <p class="event-name">City Park Green Initiative</p>
+                <p class="event-time">18 Dec 2025 | 6:30 AM - 9:30 AM</p>
+              </div>
+              <div class="event-actions">
+                <button class="action-btn edit-btn">
+                   Edit
+                </button>
+                <button class="action-btn delete-btn">
+                  Delete
+                </button>
+              </div>
+            </div>
+            <div class="event-item">
+              <div class="event-details">
+                <p class="event-id">ECO-2025-103</p>
+                <p class="event-name">Community Recycling Workshop</p>
+                <p class="event-time">22 Dec 2025 | 5:00 PM - 7:00 PM</p>
+              </div>
+              <div class="event-actions">
+                <button class="action-btn edit-btn">
+                  Edit
+                </button>
+                <button class="action-btn delete-btn">
+                  Delete
+                </button>
+              </div>
+            </div>
+            <div class="event-item">
+              <div class="event-details">
+                <p class="event-id">ECO-2025-104</p>
+                <p class="event-name">Neighborhood Clean Streets Campaign</p>
+                <p class="event-time">28 Dec 2025 | 8:00 AM - 11:00 AM</p>
+              </div>
+              <div class="event-actions">
+                <button class="action-btn edit-btn">
+                   Edit
+                </button>
+                <button class="action-btn delete-btn">
+                   Delete
+                </button>
+              </div>
+            </div>
+            <button class="action-btn add-btn">
+               Add New Event
+            </button>
+          </div>
+        </div>
+        <div id="messages-section">
+          <h2 class="section-title">Contact Form Messages</h2>
+          <div class="messages-container card">
+            <div class="message-summary">
+              <p>
+                <strong>General Inquiry:</strong> Need response soon - Regarding
+                event ECO-2025-101
+              </p>
+              <span class="message-date">Dec 4, 2025</span>
+              <button class="action-btn view-btn view-btn-small">
+                 View
+              </button>
+            </div>
+            <div class="message-summary">
+              <p>
+                <strong>Partnership Opportunity:</strong> Corporate sponsorship
+                request for upcoming events
+              </p>
+              <span class="message-date">Dec 3, 2025</span>
+              <button class="action-btn view-btn view-btn-small">
+                 View
+              </button>
+            </div>
+            <div class="message-summary">
+              <p>
+                <strong>Volunteer Question:</strong> Inquiry about volunteer
+                training programs
+              </p>
+              <span class="message-date">Dec 2, 2025</span>
+              <button class="action-btn view-btn view-btn-small">
+                 View
+              </button>
+            </div>
+            <div class="message-summary">
+              <p>
+                <strong>Event Feedback:</strong> Positive feedback from Marina
+                Beach cleanup attendee
+              </p>
+              <span class="message-date">Dec 1, 2025</span>
+              <button class="action-btn view-btn view-btn-small">
+                View
+              </button>
+            </div>
+            <div class="message-summary">
+              <p>
+                <strong>Media Request:</strong> Local news channel wants to
+                cover next event
+              </p>
+              <span class="message-date">Nov 30, 2025</span>
+              <button class="action-btn view-btn view-btn-small">
+                 View
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
