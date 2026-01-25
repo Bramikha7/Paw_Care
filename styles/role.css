@@ -17,8 +17,8 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
-  color: #000;
-  background: #ffffff;
+  color: black;
+  background: white;
   padding: 8px 14px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -26,8 +26,8 @@ body {
 }
 
 .backhome a:hover {
-  background: #000;
-  color: #fff;
+  background: black;
+  color: white;
 }
 
 .page {
@@ -54,7 +54,7 @@ body {
 }
 
 .header p {
-  color: #555;
+  color: black;
   font-size: 16px;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 .rolecard {
-  background: #fff;
+  background: white;
   border-radius: 16px;
   padding: 30px;
   text-align: center;
@@ -89,7 +89,7 @@ body {
 }
 
 .rolecard p {
-  color: #666;
+  color: black;
   margin-bottom: 24px;
   line-height: 1.5;
 }
@@ -106,6 +106,14 @@ body {
 }
 
 .button:hover {
-  background: #000;
-  color: #fff;
+  background: black;
+  color: white;
+}
+.admin{
+  text-align: center;
+}
+.admin a{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
 }

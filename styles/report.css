@@ -6,20 +6,20 @@
 }
 
 body {
-  background: #fff;
-  color: #333;
+  background: white;
+  color: black;
 }
 .title a {
   text-decoration: none;
   color: black;
 }
 header {
-  background: #fff;
+  background:white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navlink a:hover {
-  color: #111827;
+  color: black;
 }
 
 .navlink a:hover::after {
@@ -51,7 +51,7 @@ header {
 
 .navlink a {
   text-decoration: none;
-  color: #444;
+  color: black;
   font-weight: 500;
   position: relative;
   padding-bottom: 4px;
@@ -100,7 +100,7 @@ header {
 }
 
 .formcard {
-  background: #fff;
+  background: white;
   flex: 2;
   border-radius: 15px;
   padding: 30px 40px;
@@ -113,7 +113,7 @@ header {
 }
 
 .formcard p {
-  color: #475569;
+  color: black;
   margin-top: 5px;
   margin-bottom: 25px;
   font-size: 0.95rem;
@@ -126,7 +126,7 @@ header {
 .formsection h3 {
   font-size: 1.2rem;
   margin-bottom: 15px;
-  color: #1e293b;
+  color: black;
 }
 
 .formgrid {
@@ -143,7 +143,7 @@ header {
 .formgroup label {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #334155;
+  color: black;
   margin-bottom: 5px;
 }
 
@@ -151,7 +151,7 @@ header {
 .formgroup select,
 .formgroup textarea {
   padding: 10px 12px;
-  border: 1px solid #cbd5e1;
+  border: 1px solid white;
   border-radius: 8px;
   outline: none;
   transition: border-color 0.3s;
@@ -168,17 +168,17 @@ header {
 }
 
 .uploadbox {
-  border: 2px dashed #cbd5e1;
+  border: 2px dashed white;
   border-radius: 12px;
   padding: 25px;
   text-align: center;
-  background: #f9fafb;
-  color: #475569;
+  background: white;
+  color: black;
 }
 
 .uploadbox:hover {
   border-color: #2e9a92;
-  background: #f1f5f9;
+  background: white;
 }
 
 .uploadicon {
@@ -196,7 +196,7 @@ header {
   gap: 10px;
   margin-top: 20px;
   font-size: 0.9rem;
-  color: #334155;
+  color: black;
 }
 
 .checkboxgroup input {
@@ -209,8 +209,8 @@ header {
 }
 
 .submitbtn {
-  background: #0f172a;
-  color: #fff;
+  background: black;
+  color: white;
   border: none;
   padding: 14px 25px;
   border-radius: 10px;
@@ -228,11 +228,11 @@ header {
 .submitnote {
   margin-top: 8px;
   font-size: 0.85rem;
-  color: #64748b;
+  color: black;
 }
 .footer {
   background-color: #2e9a92;
-  color: #fff;
+  color: white;
   padding: 60px 20px 30px;
   font-family: "Inter", sans-serif;
 }
@@ -257,7 +257,7 @@ header {
 }
 
 .footerbrand p {
-  color: #e8f5e9;
+  color: white;
   font-size: 0.95rem;
   margin-bottom: 20px;
   line-height: 1.5;
@@ -275,7 +275,7 @@ header {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 15px;
-  color: #fff;
+  color: white;
 }
 
 .footerlinks ul {
@@ -289,14 +289,14 @@ header {
 }
 
 .footerlinks ul li a {
-  color: #e8f5e9;
+  color: white;
   text-decoration: none;
   font-size: 0.95rem;
   transition: color 0.3s ease;
 }
 
 .footerlinks ul li a:hover {
-  color: #c8e6c9;
+  color: white;
 }
 
 .footerbottom {
@@ -305,5 +305,5 @@ header {
   padding-top: 20px;
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #e8f5e9;
+  color: white;
 }

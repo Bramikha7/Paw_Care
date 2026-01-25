@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: white;
+  color: black;
+}
+
+header {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.navlink a:hover {
+  color: black;
+}
+
+.navlink a:hover::after {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo_img {
+  border-radius: 50%;
+}
+
+.navlink {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.title a {
+  text-decoration: none;
+  color: black;
+}
+.navlink a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 4px;
+  transition: all 0.3s ease;
+}
+
+.navlink a:hover {
+  color: #2e9a92;
+}
+
+.hero {
+  background: url("../assets/contact.jpg") center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.4);
+}
+
+.herocontent h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.herocontent {
+  position: relative;
+  z-index: 1;
+}
+
+.contactvia {
+  text-align: center;
+  padding: 60px 20px;
+}
+.contactvia h2 {
+  color: #2e9a92;
+  margin-bottom: 40px;
+}
+.contactvia2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+.card {
+  background: white;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 10px 10px 5px #2e9a92;
+  overflow: hidden;
+  text-align: left;
+  height: 350px;
+}
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.card h3 {
+  color: black;
+  margin: 15px;
+  text-align: center;
+}
+.card p {
+  margin: 0, 15px, 10px;
+  color: black;
+  text-align: center;
+}
+.contactformsection {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.formcard {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.formcard h2 {
+  margin-bottom: 5px;
+}
+
+.formcard p {
+  margin-bottom: 25px;
+  color: black;
+}
+
+.formgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.formgroup {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+input,
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.submitbtn {
+  margin-top: 25px;
+  width: 100%;
+  background: #2e9a92;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.submitbtn:hover {
+  background: #2e9a92;
+}
+
+.emergencysection {
+  background-color: white;
+  padding: 80px 20px;
+}
+
+.emergencycard {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid #fecaca;
+  border-radius: 16px;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: red;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+}
+
+.emergencycard h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.emergencycard p {
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.emergencynumber {
+  color: red;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.availability {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+.emergencybtn {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.emergencybtn:hover {
+  background: #b91c1c;
+}
+.footer {
+  background-color: #2e9a92;
+  color: #fff;
+  padding: 60px 20px 30px;
+  font-family: "Inter", sans-serif;
+}
+
+.footercontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footerbrand {
+  flex: 1 1 250px;
+}
+
+.footerbrand .logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footerbrand p {
+  color: #e8f5e9;
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.footerlinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.footerlinks h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footerlinks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerlinks ul li {
+  margin-bottom: 10px;
+}
+
+.footerlinks ul li a {
+  color: #e8f5e9;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footerlinks ul li a:hover {
+  color: #c8e6c9;
+}
+
+.footerbottom {
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: white;
+}

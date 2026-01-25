@@ -6,17 +6,17 @@
 }
 
 body {
-  background: #fff;
-  color: #333;
+  background: white;
+  color: black;
 }
 
 header {
-  background: #fff;
+  background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .navlink a:hover {
-  color: #111827;
+  color: black;
 }
 .title a {
   text-decoration: none;
@@ -51,7 +51,7 @@ header {
 
 .navlink a {
   text-decoration: none;
-  color: #444;
+  color:black;
   font-weight: 500;
   position: relative;
   padding-bottom: 4px;

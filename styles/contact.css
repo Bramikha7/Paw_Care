@@ -6,16 +6,16 @@
 }
 
 body {
-  background: #fff;
-  color: #333;
+  background: white;
+  color: black;
 }
 
 header {
-  background: #fff;
+  background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 .navlink a:hover {
-  color: #111827;
+  color: black;
 }
 
 .navlink a:hover::after {
@@ -50,7 +50,7 @@ header {
 }
 .navlink a {
   text-decoration: none;
-  color: #444;
+  color: black;
   font-weight: 500;
   position: relative;
   padding-bottom: 4px;
@@ -151,7 +151,7 @@ header {
 
 .formcard p {
   margin-bottom: 25px;
-  color: #64748b;
+  color: black;
 }
 
 .formgrid {
@@ -173,7 +173,7 @@ input,
 select,
 textarea {
   padding: 12px;
-  border: 1px solid #cbd5e1;
+  border: 1px solid white;
   border-radius: 8px;
   font-size: 1rem;
 }
@@ -199,7 +199,7 @@ textarea {
 }
 
 .emergencysection {
-  background-color: #fff5f5;
+  background-color: white;
   padding: 80px 20px;
 }
 
@@ -231,7 +231,7 @@ textarea {
 }
 
 .emergencycard p {
-  color: #475569;
+  color: black;
   margin-bottom: 15px;
 }
 
@@ -242,7 +242,7 @@ textarea {
 }
 
 .availability {
-  color: #64748b;
+  color: black;
   margin-bottom: 25px;
 }
 
@@ -261,7 +261,7 @@ textarea {
 }
 .footer {
   background-color: #2e9a92;
-  color: #fff;
+  color: white;
   padding: 60px 20px 30px;
   font-family: "Inter", sans-serif;
 }
@@ -286,7 +286,7 @@ textarea {
 }
 
 .footerbrand p {
-  color: #e8f5e9;
+  color: white;
   font-size: 0.95rem;
   margin-bottom: 20px;
   line-height: 1.5;
@@ -304,7 +304,7 @@ textarea {
   font-size: 1rem;
   font-weight: 600;
   margin-bottom: 15px;
-  color: #fff;
+  color:white;
 }
 
 .footerlinks ul {
@@ -318,7 +318,7 @@ textarea {
 }
 
 .footerlinks ul li a {
-  color: #e8f5e9;
+  color: white;
   text-decoration: none;
   font-size: 0.95rem;
   transition: color 0.3s ease;
@@ -334,5 +334,5 @@ textarea {
   padding-top: 20px;
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #e8f5e9;
+  color: white;
 }

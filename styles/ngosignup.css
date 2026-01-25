@@ -14,7 +14,7 @@ body {
 }
 
 .signupcontainer {
-  background: #ffffff;
+  background: white;
   width: 100%;
   max-width: 420px;
   padding: 32px;
@@ -37,7 +37,7 @@ body {
 .signupcontainer input {
   padding: 12px 14px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid white;
   font-size: 14px;
 }
 
@@ -50,7 +50,7 @@ body {
   margin-top: 10px;
   padding: 14px;
   background: #2e9a92;
-  color: #ffffff;
+  color: white;
   border: none;
   border-radius: 30px;
   font-size: 15px;
@@ -65,7 +65,7 @@ body {
   text-align: center;
   margin-top: 14px;
   font-size: 14px;
-  color: #555;
+  color: black;
 }
 
 .signintext a {
@@ -87,8 +87,8 @@ body {
   text-decoration: none;
   font-size: 14px;
   font-weight: 600;
-  color: #000;
-  background: #ffffff;
+  color: black;
+  background: white;
   padding: 8px 14px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);

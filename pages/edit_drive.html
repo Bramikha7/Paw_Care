@@ -1,12 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Edit Drive</title>
-    <link rel="stylesheet" href="../styles/edit_drive.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../styles/edit_drive.css" />
+  </head>
+  <body>
+    <div class="vacciform">
+      <div class="card vaccination-form">
+        <h3>Edit Vaccination Drive</h3>
+
+        <form>
+          <label>Drive Title</label>
+          <input
+            type="text"
+            placeholder="Eg: Rabies Vaccination Camp"
+            required
+          />
+
+          <label>Location</label>
+          <input
+            type="text"
+            placeholder="Eg: Chennai Corporation Park"
+            required
+          />
+
+          <label>Drive Date</label>
+          <input type="date" required />
+
+          <label>Drive Time</label>
+          <input type="time" required />
+
+          <button type="submit" class="save-btn">Save</button>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
