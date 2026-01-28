@@ -1,28 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add New Drive</title>
-    <link rel="stylesheet" href="../styles/add_drive.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../styles/add_drive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <h2 id="navlogo">Paw Care Admin</h2>
+          
+        </nav>
+      </div>
+    </header>
     <div class="vacciform">
-      <div class="card vaccination-form">
+      <div class="card vaccinationform">
         <h3>Add New Vaccination Drive</h3>
 
         <form>
           <label>Drive Title</label>
           <input
             type="text"
-            placeholder="Eg: Rabies Vaccination Camp"
+            placeholder="Enter the title"
             required
           />
 
           <label>Location</label>
           <input
             type="text"
-            placeholder="Eg: Chennai Corporation Park"
+            placeholder="Eg: Enter the Location"
             required
           />
 
@@ -32,9 +40,9 @@
           <label>Drive Time</label>
           <input type="time" required />
 
-          <button type="submit" class="save-btn">Save</button>
+          <button type="submit" class="savebtn">Save</button>
         </form>
       </div>
     </div>
-</body>
+  </body>
 </html>

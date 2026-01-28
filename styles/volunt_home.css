@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -205,43 +205,6 @@ header {
   padding: 20px;
   width: 150px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-.testimonials {
-  background: white;
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.testimonials h2 {
-  color: #2e9a92;
-  margin-bottom: 30px;
-}
-
-.testimonialcards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 25px;
-}
-
-.tcard {
-  background: white;
-  border-radius: 12px;
-  width: 280px;
-  padding: 20px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-.tcard p {
-  color: black;
-  font-style: italic;
-  margin-bottom: 10px;
-}
-
-.tcard h4 {
-  color: black;
-  font-weight: 600;
 }
 
 .footer {

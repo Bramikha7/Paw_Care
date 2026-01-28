@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -115,18 +115,6 @@ header {
   font-size: 15px;
 }
 
-.partners {
-  background: #f1f5f9;
-  border-radius: 12px;
-  padding: 20px;
-}
-
-.partners p {
-  color: #374151;
-  font-size: 15px;
-  line-height: 1.6;
-}
-
 .hero {
   background: url("../assets/donate.jpg") center/cover no-repeat;
   height: 60vh;
@@ -162,89 +150,15 @@ header {
   justify-content: center;
   padding: 60px 20px;
 }
-
-.donationcontainer {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  max-width: 1200px;
-  width: 100%;
-}
-.donationoptions {
-  flex: 1 1 600px;
-}
-
-.donationoptions h2 {
-  font-size: 1.8rem;
-  margin-bottom: 25px;
-  color: #222;
-}
-
-.amountgrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.amountcard {
-  background: #fff;
-  border: 2px solid transparent;
-  border-radius: 12px;
-  text-align: center;
-  padding: 25px 15px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-}
-
-.amountcard:hover {
-  border-color: #2e9a92;
-  transform: translateY(-3px);
-}
-
-.amountcard.active {
-  border-color: #2e9a92;
-  background-color: #e6f4f3;
-}
-
-.amountcard .icon {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.amountcard h3 {
-  margin-bottom: 8px;
-  font-size: 1.1rem;
-}
-
-.amountcard .price {
-  font-weight: bold;
-  font-size: 1.3rem;
-  color: #111827;
-}
 .donationform {
+  max-width: 380px;  
+  width: 100%;
   flex: 1 1 350px;
   background: #fff;
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
-
-.amountdisplay {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #f1f5f9;
-  padding: 10px 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-.amountdisplay h2 {
-  color: #2e9a92;
-  font-size: 1.5rem;
-}
-
 .paymentmethod {
   margin-bottom: 20px;
 }
@@ -281,9 +195,6 @@ input[type="number"] {
   border-radius: 8px;
   border: 1px solid #ccc;
   font-size: 1rem;
-}
-.terms {
-  margin-bottom: 15px;
 }
 
 .donatebtn {

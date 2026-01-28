@@ -1,10 +1,16 @@
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 body {
   margin: 0;
   background: linear-gradient(135deg, #bbecdd, #2e9a92);
   min-height: 100vh;
   position: relative;
+
 }
 
 .backhome {
