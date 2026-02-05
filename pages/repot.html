@@ -39,40 +39,39 @@
   <main class="reportcontainer">
     <section class="formcard">
       <h2>Case Report Form</h2>
-      <p>Fill in the details about the stray dogs you've spotted. All fields marked with * are required.</p>
 
       <form>
         <div class="formsection">
           <h3> Your Information</h3>
           <div class="formgrid">
             <div class="formgroup">
-              <label>Your Name *</label>
+              <label>Your Name </label>
               <input type="text" placeholder="Enter your name" required />
             </div>
             <div class="formgroup">
-              <label>Phone Number *</label>
+              <label>Phone Number </label>
               <input type="tel" placeholder="Enter Your Number" required />
             </div>
           </div>
           <div class="formgroup full">
-            <label>Email Address *</label>
-            <input type="email" placeholder="your.email@example.com" required />
+            <label>Email Address </label>
+            <input type="email" placeholder="Enter your Email" required />
           </div>
         </div>
         <div class="formsection">
           <h3> Location Details</h3>
           <div class="formgroup full">
-            <label>Street Address *</label>
+            <label>Street Address </label>
             <input type="text" placeholder="Enter street name" required />
           </div>
           <div class="formgrid">
             <div class="formgroup">
-              <label>City *</label>
-              <input type="text" placeholder="e.g., Bangalore" required />
+              <label>City </label>
+              <input type="text" placeholder="Enter your City" required />
             </div>
             <div class="formgroup">
-              <label>Pincode *</label>
-              <input type="text" placeholder="600001" required />
+              <label>Pincode </label>
+              <input type="text" placeholder="Enter your Pincode" required />
             </div>
           </div>
         </div>
@@ -80,47 +79,31 @@
           <h3> Case Details</h3>
           <div class="formgrid">
             <div class="formgroup">
-              <label>Number of Dogs *</label>
-              <input type="number" placeholder="e.g., 3" required />
+              <label>Number of Dogs </label>
+              <input type="number" placeholder="Enter the number of dogs" required />
             </div>
             <div class="formgroup">
-              <label>Urgency Level *</label>
-              <select required>
-                <option value="">Select urgency</option>
-                <option>Low - Regular stray dogs</option>
-                <option>Medium - Multiple dogs, regular area</option>
-                <option>High - Injured or aggressive dog</option>
-              </select>
+              <label>Urgency Level </label>
+              <input type="text" placeholder="Enter the level of Urgency" required />
             </div>
           </div>
           <div class="formgroup full">
-            <label>Detailed Description *</label>
-            <textarea placeholder="Please describe: Dog's appearance, behavior, health condition, best time to visit, etc." rows="4" required></textarea>
+            <label>Detailed Description </label>
+            <textarea placeholder="Enter the detailed Description" rows="3" required></textarea>
           </div>
           <div class="formgroup full">
             <label>Best Time to Visit</label>
-            <input type="text" placeholder="e.g., Morning 7-9 AM, Evening 5-7 PM" />
+            <input type="text" placeholder="Enter the time to Visit" />
           </div>
         </div>
         <div class="formsection">
-          <h3> Upload Photos (Optional)</h3>
+          <h3> Upload Photos</h3>
           <div class="uploadbox">
-            <div class="uploadicon"></div>
-            <p>Click to upload or drag and drop</p>
-            <small>PNG, JPG up to 5MB (helps NGOs identify the dogs)</small>
+            <p>Click to upload</p>
+            <small> (helps NGOs identify the dogs)</small>
             <input type="file" id="fileUpload" multiple />
           </div>
         </div>
-        <!-- <div class="checkboxgroup">
-          <label>
-            <input type="checkbox" required />
-            I confirm that the information provided is accurate and I agree to be contacted by NGO partners for verification or updates. *
-          </label>
-          <label>
-            <input type="checkbox" />
-            I would like to receive updates about this case via email/SMS.
-          </label>
-        </div> -->
         <div class="submitsection">
           <button type="submit" class="submitbtn"> Submit Case Report</button>
         </div>
